@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local source checkouts and high-volume construction cache.
+data/repos/
+data/raw/
+
+# Audit/model scratch artifacts are not part of the dataset release.
+data/audits/prompts/
+data/audits/raw/
+
+# Local agent/runtime metadata.
+.trae/

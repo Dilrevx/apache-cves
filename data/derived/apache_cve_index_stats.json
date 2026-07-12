@@ -1,0 +1,1814 @@
+{
+  "apache_published_cves": 2174,
+  "generated_at": "2026-07-10T16:41:52+00:00",
+  "schema_version": "1.0.0",
+  "source_commit": "9248b2cbb2f89ca9997d88188717cd156902e721",
+  "source_repo": "/data/lhq/workspace/route-hacker/externals/vulndb-mirror/output/cvelistv5/cvelistv5_repo",
+  "top_products": [
+    [
+      "Apache Airflow",
+      140
+    ],
+    [
+      "Apache HTTP Server",
+      133
+    ],
+    [
+      "Apache Tomcat",
+      119
+    ],
+    [
+      "Apache Superset",
+      65
+    ],
+    [
+      "Apache Traffic Server",
+      63
+    ],
+    [
+      "Apache OFBiz",
+      57
+    ],
+    [
+      "Apache Camel",
+      49
+    ],
+    [
+      "Apache NiFi",
+      47
+    ],
+    [
+      "Apache ActiveMQ",
+      37
+    ],
+    [
+      "Apache CXF",
+      36
+    ],
+    [
+      "Apache CloudStack",
+      32
+    ],
+    [
+      "Apache DolphinScheduler",
+      31
+    ],
+    [
+      "Apache InLong",
+      31
+    ],
+    [
+      "Apache Solr",
+      29
+    ],
+    [
+      "Apache Struts",
+      27
+    ],
+    [
+      "Apache OpenOffice",
+      27
+    ],
+    [
+      "Apache Hadoop",
+      24
+    ],
+    [
+      "Apache JSPWiki",
+      24
+    ],
+    [
+      "Apache OpenMeetings",
+      23
+    ],
+    [
+      "Apache APISIX",
+      23
+    ],
+    [
+      "Apache Zeppelin",
+      21
+    ],
+    [
+      "Apache Shiro",
+      20
+    ],
+    [
+      "Apache Kylin",
+      20
+    ],
+    [
+      "Apache Geode",
+      19
+    ],
+    [
+      "Apache Fineract",
+      19
+    ],
+    [
+      "Apache Tika",
+      19
+    ],
+    [
+      "Apache Spark",
+      18
+    ],
+    [
+      "Apache Dubbo",
+      18
+    ],
+    [
+      "Apache Answer",
+      18
+    ],
+    [
+      "Apache Thrift",
+      17
+    ],
+    [
+      "Apache IoTDB",
+      17
+    ],
+    [
+      "Apache ActiveMQ All",
+      17
+    ],
+    [
+      "Apache Ambari",
+      16
+    ],
+    [
+      "Apache Syncope",
+      16
+    ],
+    [
+      "Apache Pulsar",
+      16
+    ],
+    [
+      "Apache Hive",
+      15
+    ],
+    [
+      "Apache Ranger",
+      13
+    ],
+    [
+      "Apache ActiveMQ Broker",
+      13
+    ],
+    [
+      "Apache Atlas",
+      12
+    ],
+    [
+      "Apache Cassandra",
+      12
+    ],
+    [
+      "Apache Druid",
+      12
+    ],
+    [
+      "Apache Wicket",
+      11
+    ],
+    [
+      "Apache CouchDB",
+      11
+    ],
+    [
+      "Apache Kafka",
+      11
+    ],
+    [
+      "Apache Guacamole",
+      11
+    ],
+    [
+      "Apache Archiva",
+      11
+    ],
+    [
+      "Apache Ozone",
+      11
+    ],
+    [
+      "Apache Subversion",
+      10
+    ],
+    [
+      "Apache Karaf",
+      10
+    ],
+    [
+      "Apache Commons Compress",
+      10
+    ],
+    [
+      "Apache ZooKeeper",
+      9
+    ],
+    [
+      "Apache Tapestry",
+      9
+    ],
+    [
+      "Apache ActiveMQ Artemis",
+      9
+    ],
+    [
+      "Apache StreamPark",
+      9
+    ],
+    [
+      "Apache Kvrocks",
+      9
+    ],
+    [
+      "Apache Sling",
+      8
+    ],
+    [
+      "Apache SpamAssassin",
+      8
+    ],
+    [
+      "Apache Storm",
+      8
+    ],
+    [
+      "Apache MINA",
+      8
+    ],
+    [
+      "Apache Linkis",
+      8
+    ],
+    [
+      "Apache StreamPark (incubating)",
+      8
+    ],
+    [
+      "Apache StreamPipes",
+      8
+    ],
+    [
+      "Apache James",
+      7
+    ],
+    [
+      "Apache Traffic Control",
+      7
+    ],
+    [
+      "Apache PDFBox",
+      7
+    ],
+    [
+      "Apache Roller",
+      7
+    ],
+    [
+      "Apache Qpid Broker-J",
+      6
+    ],
+    [
+      "Apache Impala",
+      6
+    ],
+    [
+      "Apache Ignite",
+      6
+    ],
+    [
+      "Apache Mesos",
+      6
+    ],
+    [
+      "Apache Allura",
+      6
+    ],
+    [
+      "Apache Commons Configuration",
+      6
+    ],
+    [
+      "Apache Jena",
+      6
+    ],
+    [
+      "Apache James server",
+      6
+    ],
+    [
+      "Apache bRPC",
+      6
+    ],
+    [
+      "Apache HertzBeat",
+      6
+    ],
+    [
+      "Apache Tomcat Native",
+      5
+    ],
+    [
+      "Apache ShenYu (incubating)",
+      5
+    ],
+    [
+      "Apache XML Graphics",
+      5
+    ],
+    [
+      "Apache Doris",
+      5
+    ],
+    [
+      "Apache NimBLE",
+      5
+    ],
+    [
+      "Apache Fory",
+      5
+    ],
+    [
+      "Apache Flink CDC",
+      5
+    ],
+    [
+      "Apache OpenNLP",
+      4
+    ],
+    [
+      "Apache POI",
+      4
+    ],
+    [
+      "Apache CXF Fediz",
+      4
+    ],
+    [
+      "Apache Oozie",
+      4
+    ],
+    [
+      "Apache Log4j",
+      4
+    ],
+    [
+      "Apache Batik",
+      4
+    ],
+    [
+      "Apache Tomcat Connectors",
+      4
+    ],
+    [
+      "Apache NetBeans",
+      4
+    ],
+    [
+      "OFBiz",
+      4
+    ],
+    [
+      "Apache RocketMQ",
+      4
+    ],
+    [
+      "Apache Ant",
+      4
+    ],
+    [
+      "Apache Cocoon",
+      4
+    ],
+    [
+      "Apache SkyWalking",
+      4
+    ],
+    [
+      "Apache Flink",
+      4
+    ],
+    [
+      "Apache Portable Runtime (APR)",
+      4
+    ],
+    [
+      "Apache Portals",
+      4
+    ],
+    [
+      "Apache Any23",
+      4
+    ],
+    [
+      "Apache Log4j 1.x",
+      4
+    ],
+    [
+      "Apache Avro",
+      4
+    ],
+    [
+      "Apache Pinot",
+      4
+    ],
+    [
+      "Apache Airflow Spark Provider",
+      4
+    ],
+    [
+      "Apache Airflow Hive Provider",
+      4
+    ],
+    [
+      "Apache MINA SSHD",
+      4
+    ],
+    [
+      "Apache IoTDB Workbench",
+      4
+    ],
+    [
+      "Apache Log4cxx",
+      4
+    ],
+    [
+      "Apache Linkis DataSource",
+      4
+    ],
+    [
+      "Apache HugeGraph-Server",
+      4
+    ],
+    [
+      "Apache Seata (incubating)",
+      4
+    ],
+    [
+      "Apache NuttX RTOS",
+      4
+    ],
+    [
+      "Apache Mynewt NimBLE",
+      4
+    ],
+    [
+      "Apache Log4j Core",
+      4
+    ],
+    [
+      "Apache ActiveMQ Client",
+      4
+    ],
+    [
+      "Apache Polaris",
+      4
+    ],
+    [
+      "Apache Derby",
+      3
+    ],
+    [
+      "Apache jUDDI",
+      3
+    ],
+    [
+      "Apache Brooklyn",
+      3
+    ],
+    [
+      "n/a",
+      3
+    ],
+    [
+      "VCL",
+      3
+    ],
+    [
+      "Apache JMeter",
+      3
+    ],
+    [
+      "Apache TomEE",
+      3
+    ],
+    [
+      "Apache Axis",
+      3
+    ],
+    [
+      "Apache Arrow",
+      3
+    ],
+    [
+      "Olingo",
+      3
+    ],
+    [
+      "Apache Unomi",
+      3
+    ],
+    [
+      "Apache Calcite",
+      3
+    ],
+    [
+      "Apache NuttX (incubating)",
+      3
+    ],
+    [
+      "IBM Cloudant",
+      3
+    ],
+    [
+      "Apache Log4j2",
+      3
+    ],
+    [
+      "Apache Flume",
+      3
+    ],
+    [
+      "Apache ShenYu",
+      3
+    ],
+    [
+      "Apache Ivy",
+      3
+    ],
+    [
+      "Apache Sling App CMS",
+      3
+    ],
+    [
+      "Apache Commons FileUpload",
+      3
+    ],
+    [
+      "Apache Avro Java SDK",
+      3
+    ],
+    [
+      "Apache Kafka Clients",
+      3
+    ],
+    [
+      "Apache Pekko Management",
+      3
+    ],
+    [
+      "Akka Management",
+      3
+    ],
+    [
+      "Apache ActiveMQ Web",
+      3
+    ],
+    [
+      "Apache Neethi",
+      3
+    ],
+    [
+      "Apache Lucene.Net",
+      3
+    ],
+    [
+      "Apache Cordova Android",
+      2
+    ],
+    [
+      "Karaf",
+      2
+    ],
+    [
+      "Apache Portable Runtime",
+      2
+    ],
+    [
+      "Apache Xerces C++",
+      2
+    ],
+    [
+      "Apache Solr before 7.1 with Apache Lucene before 7.1",
+      2
+    ],
+    [
+      "Apache Drill",
+      2
+    ],
+    [
+      "Apache UIMA",
+      2
+    ],
+    [
+      "Apache DeltaSpike",
+      2
+    ],
+    [
+      "Apache Knox",
+      2
+    ],
+    [
+      "Apache Commons Email",
+      2
+    ],
+    [
+      "Apache Cayenne",
+      2
+    ],
+    [
+      "Storm",
+      2
+    ],
+    [
+      "Apache MXNet",
+      2
+    ],
+    [
+      "Apache Pluto",
+      2
+    ],
+    [
+      "Kafka",
+      2
+    ],
+    [
+      "Apache Commons Imaging",
+      2
+    ],
+    [
+      "Apache ORC",
+      2
+    ],
+    [
+      "Apache HBase",
+      2
+    ],
+    [
+      "Apache UIMA DUCC",
+      2
+    ],
+    [
+      "Solr",
+      2
+    ],
+    [
+      "libapreq2",
+      2
+    ],
+    [
+      "Apache Incubator Superset",
+      2
+    ],
+    [
+      "CXF",
+      2
+    ],
+    [
+      "Apache HttpClient",
+      2
+    ],
+    [
+      "Apache Accumulo",
+      2
+    ],
+    [
+      "Apache NiFi Registry",
+      2
+    ],
+    [
+      "Apache Maven",
+      2
+    ],
+    [
+      "Apache Commons IO",
+      2
+    ],
+    [
+      "Apache APISIX Dashboard",
+      2
+    ],
+    [
+      "Apache Gobblin",
+      2
+    ],
+    [
+      "Apache Santuario",
+      2
+    ],
+    [
+      "Apache ShardingSphere ElasticJob-UI",
+      2
+    ],
+    [
+      "jxpath",
+      2
+    ],
+    [
+      "Apache SOAP",
+      2
+    ],
+    [
+      "Apache Isis",
+      2
+    ],
+    [
+      "Apache Linkis (incubating)",
+      2
+    ],
+    [
+      "Apache XML Graphics Batik",
+      2
+    ],
+    [
+      "Apache Helix",
+      2
+    ],
+    [
+      "Apache Airflow MySQL Provider",
+      2
+    ],
+    [
+      "Apache Airflow Google Provider",
+      2
+    ],
+    [
+      "Apache Airflow Sqoop Provider",
+      2
+    ],
+    [
+      "Apache Airflow Drill Provider",
+      2
+    ],
+    [
+      "Apache Airflow ODBC Provider",
+      2
+    ],
+    [
+      "Apache Camel JIRA",
+      2
+    ],
+    [
+      "Apache Airflow Apache Hive Provider",
+      2
+    ],
+    [
+      "Apache Submarine",
+      2
+    ],
+    [
+      "Apache ServiceComb Service-Center",
+      2
+    ],
+    [
+      "PyArrow",
+      2
+    ],
+    [
+      "Apache SeaTunnel Web",
+      2
+    ],
+    [
+      "Apache Airflow CNCF Kubernetes provider",
+      2
+    ],
+    [
+      "Apache Submarine Server Core",
+      2
+    ],
+    [
+      "Apache VCL",
+      2
+    ],
+    [
+      "Apache HertzBeat (incubating)",
+      2
+    ],
+    [
+      "Apache Commons VFS",
+      2
+    ],
+    [
+      "Apache Parquet Java",
+      2
+    ],
+    [
+      "Apache Commons Lang",
+      2
+    ],
+    [
+      "Apache Gravitino",
+      2
+    ],
+    [
+      "Apache Tika PDF parser module",
+      2
+    ],
+    [
+      "Apache Livy",
+      2
+    ],
+    [
+      "Apache Doris MCP Server",
+      2
+    ],
+    [
+      "Apache PDFBox Examples",
+      2
+    ],
+    [
+      "Apache Artemis",
+      2
+    ],
+    [
+      "Apache Storm Client",
+      2
+    ],
+    [
+      "Apache Airflow Google provider",
+      2
+    ],
+    [
+      "Apache ActiveMQ Stomp",
+      2
+    ],
+    [
+      "Apache HttpComponents Core",
+      2
+    ],
+    [
+      "Apache Kerby",
+      2
+    ],
+    [
+      "jUDDI",
+      1
+    ],
+    [
+      "Apache Hupa",
+      1
+    ],
+    [
+      "Apache Continuum",
+      1
+    ],
+    [
+      "Apache Commons Jelly",
+      1
+    ],
+    [
+      "Apache Qpid Dispatch Router",
+      1
+    ],
+    [
+      "Apache Synapse",
+      1
+    ],
+    [
+      "Wicket jQuery UI",
+      1
+    ],
+    [
+      "Apache Flex Blaze DS",
+      1
+    ],
+    [
+      "Apache Pony Mail",
+      1
+    ],
+    [
+      "Apache FOP",
+      1
+    ],
+    [
+      "PHP Runtime for Apache OpenWhisk",
+      1
+    ],
+    [
+      "Docker Skeleton Runtime for Apache OpenWhisk",
+      1
+    ],
+    [
+      "Apache Incubator Heron",
+      1
+    ],
+    [
+      "Apache log4net",
+      1
+    ],
+    [
+      "Apache Xerces-C",
+      1
+    ],
+    [
+      "Apache ODE",
+      1
+    ],
+    [
+      "wicket-jquery-ui",
+      1
+    ],
+    [
+      "Apache Directory",
+      1
+    ],
+    [
+      "Apache Qpid Proton-J",
+      1
+    ],
+    [
+      "Superset",
+      1
+    ],
+    [
+      "Apache Sentry",
+      1
+    ],
+    [
+      "Apache Pony Mail (incubating)",
+      1
+    ],
+    [
+      "Cordova",
+      1
+    ],
+    [
+      "Apache Qpid Proton",
+      1
+    ],
+    [
+      "Apache Axis 1.4",
+      1
+    ],
+    [
+      "Tomcat",
+      1
+    ],
+    [
+      "Atlas",
+      1
+    ],
+    [
+      "Impala",
+      1
+    ],
+    [
+      "Apache Commons Beanutils",
+      1
+    ],
+    [
+      "Airflow",
+      1
+    ],
+    [
+      "Apache Santuario - XML Security for Java",
+      1
+    ],
+    [
+      "Traffic Control",
+      1
+    ],
+    [
+      "Shiro",
+      1
+    ],
+    [
+      "Apache XML-RPC",
+      1
+    ],
+    [
+      "Log4j",
+      1
+    ],
+    [
+      "Apache DolphinScheduler(Incubating)",
+      1
+    ],
+    [
+      "Apache XmlGraphics Commons",
+      1
+    ],
+    [
+      "Apache Cordova ( cordova-plugin-camera )",
+      1
+    ],
+    [
+      "Apache Velocity Engine",
+      1
+    ],
+    [
+      "Apache Velocity Tools",
+      1
+    ],
+    [
+      "Pulsar Manager",
+      1
+    ],
+    [
+      "Apache Groovy",
+      1
+    ],
+    [
+      "Apache ServiceComb-Java-Chassis",
+      1
+    ],
+    [
+      "Apache NetBeans HTML/Java API",
+      1
+    ],
+    [
+      "Apache Olingo",
+      1
+    ],
+    [
+      "Beam",
+      1
+    ],
+    [
+      "Apache Jackrabbit Oak",
+      1
+    ],
+    [
+      "Apache ShardingSphere(incubator)",
+      1
+    ],
+    [
+      "IoTDB",
+      1
+    ],
+    [
+      "Kylin",
+      1
+    ],
+    [
+      "Apache Heron",
+      1
+    ],
+    [
+      "Apache AsterixDB",
+      1
+    ],
+    [
+      "ATS",
+      1
+    ],
+    [
+      "Apache Chainsaw",
+      1
+    ],
+    [
+      "Apache ServiceComb",
+      1
+    ],
+    [
+      "Apache Nutch",
+      1
+    ],
+    [
+      "Apache XMLBeans",
+      1
+    ],
+    [
+      "Apache MyFaces Core",
+      1
+    ],
+    [
+      "Apache NuttX",
+      1
+    ],
+    [
+      "Apache Livy (Incubating)",
+      1
+    ],
+    [
+      "Apache ShardingSphere-UI",
+      1
+    ],
+    [
+      "Apache Mina SSHD",
+      1
+    ],
+    [
+      "Apache NiFi - MiNiFi C++",
+      1
+    ],
+    [
+      "Apache Jena Fuseki",
+      1
+    ],
+    [
+      "Apache Directory Studio",
+      1
+    ],
+    [
+      "Apache Commons Net",
+      1
+    ],
+    [
+      "Apache ShenYu Admin",
+      1
+    ],
+    [
+      "Apache Ranger Hive Plugin",
+      1
+    ],
+    [
+      "Apache Parquet",
+      1
+    ],
+    [
+      "Apache DB ddlutils",
+      1
+    ],
+    [
+      "Apache Heron (Incubating)",
+      1
+    ],
+    [
+      "Apache PLC4X",
+      1
+    ],
+    [
+      "Apache Airavata Django Portal",
+      1
+    ],
+    [
+      "Apache Sling Commons Messaging Mail",
+      1
+    ],
+    [
+      "Apache Xerces",
+      1
+    ],
+    [
+      "Apache Doris(Incubating)",
+      1
+    ],
+    [
+      "Apache Portable Runtime Utility (APR-util)",
+      1
+    ],
+    [
+      "poi-scratchpad",
+      1
+    ],
+    [
+      "Apache SystemDS",
+      1
+    ],
+    [
+      "Apache BookKeeper",
+      1
+    ],
+    [
+      "Apache Xalan-J",
+      1
+    ],
+    [
+      "Apache SkyWalking NodeJS Agent",
+      1
+    ],
+    [
+      "Apache Calcite Avatica",
+      1
+    ],
+    [
+      "Apache Airflow Pinot Provider",
+      1
+    ],
+    [
+      "Apache Airlfow Pig Provider",
+      1
+    ],
+    [
+      "Apache Airflow ",
+      1
+    ],
+    [
+      "Apache Commons Text",
+      1
+    ],
+    [
+      "Apache Commons BCEL",
+      1
+    ],
+    [
+      "Apache Sling Engine",
+      1
+    ],
+    [
+      "Apache Jena SDB",
+      1
+    ],
+    [
+      "Apache ShardingSphere-Proxy",
+      1
+    ],
+    [
+      "Apache Hama",
+      1
+    ],
+    [
+      "Apache AGE",
+      1
+    ],
+    [
+      "Apache James MIME4J",
+      1
+    ],
+    [
+      "Apache ManifoldCF",
+      1
+    ],
+    [
+      "Apache Zeppelin SAP",
+      1
+    ],
+    [
+      "org.apache.sling.commons.json",
+      1
+    ],
+    [
+      "Apache Airflow JDBC Provider",
+      1
+    ],
+    [
+      "Apache Sling JCR Base",
+      1
+    ],
+    [
+      "Apache Kafka Connect API",
+      1
+    ],
+    [
+      "apache fineract",
+      1
+    ],
+    [
+      "Apache Kerby LDAP Backend",
+      1
+    ],
+    [
+      "Apache Airflow AWS Provider",
+      1
+    ],
+    [
+      "Apache EventMesh (incubating) RabbitMQ connector",
+      1
+    ],
+    [
+      "Apache Sling Resource Merger",
+      1
+    ],
+    [
+      "ShardingSphere-Agent",
+      1
+    ],
+    [
+      "Apache Pulsar Broker",
+      1
+    ],
+    [
+      "Apache Johnzon",
+      1
+    ],
+    [
+      "Apache Airflow CNCF Kubernetes Provider",
+      1
+    ],
+    [
+      "Apache Airflow MSSQL Provider",
+      1
+    ],
+    [
+      "Apache Pulsar WebSocket Proxy",
+      1
+    ],
+    [
+      "Apache Pulsar Function Worker",
+      1
+    ],
+    [
+      "Apache Jackrabbit Webapp (jackrabbit-webapp)",
+      1
+    ],
+    [
+      "Apache Jackrabbit Standalone (jackrabbit-standalone and jackrabbit-standalone-components)",
+      1
+    ],
+    [
+      "Apache Felix Healthcheck Webconsole Plugin",
+      1
+    ],
+    [
+      "Apache Airflow SMTP Provider",
+      1
+    ],
+    [
+      "Apache Airflow IMAP Provider",
+      1
+    ],
+    [
+      "Apache UIMA Java SDK Core",
+      1
+    ],
+    [
+      "Apache UIMA Java SDK CPE",
+      1
+    ],
+    [
+      "Apache UIMA Java SDK Vinci adapter",
+      1
+    ],
+    [
+      "Apache UIMA Java SDK tools",
+      1
+    ],
+    [
+      "Apache NiFi MiNiFi C++",
+      1
+    ],
+    [
+      "Apache Airflow HDFS Provider",
+      1
+    ],
+    [
+      "Apache Flink Stateful Functions",
+      1
+    ],
+    [
+      "Apache Airflow Celery provider",
+      1
+    ],
+    [
+      "Apache ActiveMQ Legacy OpenWire Module",
+      1
+    ],
+    [
+      "Apache Tiles",
+      1
+    ],
+    [
+      "Apache James Mime4J",
+      1
+    ],
+    [
+      "Apache Helix Front (UI)",
+      1
+    ],
+    [
+      "Apache Seata",
+      1
+    ],
+    [
+      "Apache Sling Servlets Resolver",
+      1
+    ],
+    [
+      "Apache Hop Engine",
+      1
+    ],
+    [
+      "Apache Airflow Mongo Provider",
+      1
+    ],
+    [
+      "Apache Linkis Basic management services",
+      1
+    ],
+    [
+      "Apache Linkis  Basic management services",
+      1
+    ],
+    [
+      "Apache HugeGraph-Hubble",
+      1
+    ],
+    [
+      "Apache Aurora",
+      1
+    ],
+    [
+      "Apache XML Graphics FOP",
+      1
+    ],
+    [
+      "Apache Airflow FTP Provider",
+      1
+    ],
+    [
+      "Apache Solr Operator",
+      1
+    ],
+    [
+      "Apache Karaf Cave",
+      1
+    ],
+    [
+      "Apache Submarine Commons Utils",
+      1
+    ],
+    [
+      "Apache InLong TubeMQ Client",
+      1
+    ],
+    [
+      "Apache Linkis Spark EngineConn",
+      1
+    ],
+    [
+      "Apache EventMesh Runtime",
+      1
+    ],
+    [
+      "Apache Arrow Rust Object Store",
+      1
+    ],
+    [
+      "Apache Airflow Providers FAB",
+      1
+    ],
+    [
+      "Apache Lucene.Net.Replicator",
+      1
+    ],
+    [
+      "Apache Airflow Fab Provider",
+      1
+    ],
+    [
+      "Apache CloudStack Quota plugin",
+      1
+    ],
+    [
+      "Apache Linkis Metadata Query Service JDBC",
+      1
+    ],
+    [
+      "Apache Lucene Replicator",
+      1
+    ],
+    [
+      "Maven Archetype Plugin",
+      1
+    ],
+    [
+      "Apache Arrow R package",
+      1
+    ],
+    [
+      "Apache EventMesh",
+      1
+    ],
+    [
+      "Apache Felix Webconsole",
+      1
+    ],
+    [
+      "Apache IoTDB JDBC driver",
+      1
+    ],
+    [
+      "Apache APISIX Java Plugin Runner",
+      1
+    ],
+    [
+      "Apache Kafka Client",
+      1
+    ],
+    [
+      "Apache HttpComponents",
+      1
+    ],
+    [
+      "HDFS native client",
+      1
+    ],
+    [
+      "Apache Felix HTTP Webconsole Plugin",
+      1
+    ],
+    [
+      "Apache ActiveMQ NMS OpenWire Client",
+      1
+    ],
+    [
+      "Apache Airflow Common SQL Provider",
+      1
+    ],
+    [
+      "Apache Pulsar IO Kafka Connector",
+      1
+    ],
+    [
+      "Apache Pulsar IO Kafka Connect Adaptor",
+      1
+    ],
+    [
+      "Apache SeaTunnel",
+      1
+    ],
+    [
+      "Apache NuttX RTOS: tools/bdf-converter.",
+      1
+    ],
+    [
+      "Apache Commons BeanUtils 1.x",
+      1
+    ],
+    [
+      "Apache Commons BeanUtils 2.x",
+      1
+    ],
+    [
+      "Apache Airflow Providers Snowflake",
+      1
+    ],
+    [
+      "Apache Commons OGNL",
+      1
+    ],
+    [
+      "Apache Jackrabbit",
+      1
+    ],
+    [
+      "Apache ActiveMQ NMS AMQP Client",
+      1
+    ],
+    [
+      "Apache Struts Extras",
+      1
+    ],
+    [
+      "Apache Doris-MCP-Server",
+      1
+    ],
+    [
+      "Apache Jackrabbit Core",
+      1
+    ],
+    [
+      "Apache Jackrabbit JCR Commons",
+      1
+    ],
+    [
+      "Apache Causeway",
+      1
+    ],
+    [
+      "Apache ActiveMQ All Module",
+      1
+    ],
+    [
+      "Apache ActiveMQ MQTT Module",
+      1
+    ],
+    [
+      "Apache Camel Neo4j",
+      1
+    ],
+    [
+      "Apache Tika core",
+      1
+    ],
+    [
+      "Apache Tika parsers",
+      1
+    ],
+    [
+      "Apache Kyuubi",
+      1
+    ],
+    [
+      "Apache Airflow Providers Edge3",
+      1
+    ],
+    [
+      "Apache SIS",
+      1
+    ],
+    [
+      "Apache Uniffle",
+      1
+    ],
+    [
+      "Apache Airflow Providers Http",
+      1
+    ],
+    [
+      "Apache Airflow Providers Amazon",
+      1
+    ],
+    [
+      "Apache Camel LevelDB",
+      1
+    ],
+    [
+      "Apache Airflow Provider for Databricks",
+      1
+    ],
+    [
+      "Apache SkyWalking MCP",
+      1
+    ],
+    [
+      "Apache Log4j 1 to Log4j 2 bridge",
+      1
+    ],
+    [
+      "Apache Log4j JSON Template Layout",
+      1
+    ],
+    [
+      "Apache Directory LDAP API",
+      1
+    ],
+    [
+      "Apache Storm UI",
+      1
+    ],
+    [
+      "Apache Log4net",
+      1
+    ],
+    [
+      "Apache Camel Platform HTTP Main",
+      1
+    ],
+    [
+      "Apache Log4cxx (Conan)",
+      1
+    ],
+    [
+      "Apache Log4cxx (Brew)",
+      1
+    ],
+    [
+      "Apache ActiveMQ MQTT",
+      1
+    ],
+    [
+      "Apache Camel PQC",
+      1
+    ],
+    [
+      "Apache Camel JMS",
+      1
+    ],
+    [
+      "Apache Camel CoAP",
+      1
+    ],
+    [
+      "Apache Camel Google PubSub",
+      1
+    ],
+    [
+      "Apache Camel Mina",
+      1
+    ],
+    [
+      "Apache Storm Prometheus Reporter",
+      1
+    ],
+    [
+      "Apache Flink Kubernetes Operator",
+      1
+    ],
+    [
+      "Apache Artemis Stomp Protocol",
+      1
+    ],
+    [
+      "Apache ActiveMQ Artemis Stomp Protocol",
+      1
+    ],
+    [
+      "Apache Airflow Providers Keycloak",
+      1
+    ],
+    [
+      "Apache Airflow Providers SMTP",
+      1
+    ],
+    [
+      "Apache Airflow Providers Elasticsearch",
+      1
+    ],
+    [
+      "Pony Mail",
+      1
+    ],
+    [
+      "Apache Airflow Amazon provider",
+      1
+    ],
+    [
+      "Apache OpenNLP :: Core :: ML :: LibSVM",
+      1
+    ],
+    [
+      "Apache Airflow Providers OpenSearch",
+      1
+    ],
+    [
+      "Apache Shiro Jakarta EE module",
+      1
+    ],
+    [
+      "Apache ECharts",
+      1
+    ],
+    [
+      "Apache Camel K",
+      1
+    ],
+    [
+      "Apache Camel Mail",
+      1
+    ],
+    [
+      "Apache Camel Lucene",
+      1
+    ],
+    [
+      "Apache Camel Vertx Websocket",
+      1
+    ],
+    [
+      "Apache Airflow FAB provider",
+      1
+    ],
+    [
+      "Cordova Plugin InAppBrowser",
+      1
+    ],
+    [
+      "Apache Camel DNS",
+      1
+    ],
+    [
+      "Apache Camel Dapr",
+      1
+    ],
+    [
+      "Apache Camel Salesforce",
+      1
+    ],
+    [
+      "Apache Fesod (Incubating)",
+      1
+    ],
+    [
+      "Apache Fluss (incubating)",
+      1
+    ],
+    [
+      "Apache Airflow FTP provider",
+      1
+    ],
+    [
+      "Apache Airflow Samba provider",
+      1
+    ],
+    [
+      "Apache Airflow SFTP provider",
+      1
+    ],
+    [
+      "Apache ActiveMQ Web Console",
+      1
+    ],
+    [
+      "Apache Camel Keycloak",
+      1
+    ],
+    [
+      "Apache Camel Atmosphere Websocket",
+      1
+    ],
+    [
+      "Apache Camel Iggy",
+      1
+    ],
+    [
+      "Apache Camel Undertow",
+      1
+    ],
+    [
+      "Apache Camel AWS2 SNS",
+      1
+    ],
+    [
+      "Apache Helix REST",
+      1
+    ]
+  ],
+  "unreadable_source_records": 0
+}

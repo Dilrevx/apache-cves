@@ -1,0 +1,210 @@
+{"cve_id": "CVE-2021-43410", "normalised_product": "airavata django portal", "product": "Apache Airavata Django Portal", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-40189", "normalised_product": "airlfow pig provider", "product": "Apache Airlfow Pig Provider", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-23196", "normalised_product": "ambari", "product": "Apache Ambari", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-34150", "normalised_product": "any23", "product": "Apache Any23", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-25087", "normalised_product": "arrow", "product": "Apache Arrow", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-52338", "normalised_product": "arrow r package", "product": "Apache Arrow R package", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-41178", "normalised_product": "arrow rust object store", "product": "Apache Arrow Rust Object Store", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-32642", "normalised_product": "artemis", "product": "Apache Artemis", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-40914", "normalised_product": "artemis stomp protocol", "product": "Apache Artemis Stomp Protocol", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-9479", "normalised_product": "asterixdb", "product": "Apache AsterixDB", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-27905", "normalised_product": "aurora", "product": "Apache Aurora", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-36125", "normalised_product": "avro", "product": "Apache Avro", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-33042", "normalised_product": "avro java sdk", "product": "Apache Avro Java SDK", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-51441", "normalised_product": "axis", "product": "Apache Axis", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-0227", "normalised_product": "axis 1 4", "product": "Apache Axis 1.4", "vendor": "Apache"}
+{"cve_id": "CVE-2018-8013", "normalised_product": "batik", "product": "Apache Batik", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-32531", "normalised_product": "bookkeeper", "product": "Apache BookKeeper", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-3165", "normalised_product": "brooklyn", "product": "Apache Brooklyn", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-46718", "normalised_product": "calcite", "product": "Apache Calcite", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-36364", "normalised_product": "calcite avatica", "product": "Apache Calcite Avatica", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-64408", "normalised_product": "causeway", "product": "Apache Causeway", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-24289", "normalised_product": "cayenne", "product": "Apache Cayenne", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-9493", "normalised_product": "chainsaw", "product": "Apache Chainsaw", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-24783", "normalised_product": "cocoon", "product": "Apache Cocoon", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-42920", "normalised_product": "commons bcel", "product": "Apache Commons BCEL", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-1294", "normalised_product": "commons email", "product": "Apache Commons Email", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-12621", "normalised_product": "commons jelly", "product": "Apache Commons Jelly", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-53192", "normalised_product": "commons ognl", "product": "Apache Commons OGNL", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-30474", "normalised_product": "commons vfs", "product": "Apache Commons VFS", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2016-15057", "normalised_product": "continuum", "product": "Apache Continuum", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-3160", "normalised_product": "cordova android", "product": "Apache Cordova Android", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-41616", "normalised_product": "db ddlutils", "product": "Apache DB ddlutils", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-17837", "normalised_product": "deltaspike", "product": "Apache DeltaSpike", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-46337", "normalised_product": "derby", "product": "Apache Derby", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-1337", "normalised_product": "directory", "product": "Apache Directory", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-35563", "normalised_product": "directory ldap api", "product": "Apache Directory LDAP API", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-33900", "normalised_product": "directory studio", "product": "Apache Directory Studio", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-48019", "normalised_product": "doris", "product": "Apache Doris", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-66336", "normalised_product": "doris mcp server", "product": "Apache Doris MCP Server", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-23942", "normalised_product": "doris", "product": "Apache Doris(Incubating)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-58337", "normalised_product": "doris mcp server", "product": "Apache Doris-MCP-Server", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-48362", "normalised_product": "drill", "product": "Apache Drill", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-45249", "normalised_product": "echarts", "product": "Apache ECharts", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-56180", "normalised_product": "eventmesh", "product": "Apache EventMesh", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-26512", "normalised_product": "eventmesh rabbitmq connector", "product": "Apache EventMesh (incubating) RabbitMQ connector", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-39954", "normalised_product": "eventmesh runtime", "product": "Apache EventMesh Runtime", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-5661", "normalised_product": "fop", "product": "Apache FOP", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-27867", "normalised_product": "felix http webconsole plugin", "product": "Apache Felix HTTP Webconsole Plugin", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-38435", "normalised_product": "felix healthcheck webconsole plugin", "product": "Apache Felix Healthcheck Webconsole Plugin", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-25247", "normalised_product": "felix webconsole", "product": "Apache Felix Webconsole", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-49328", "normalised_product": "fesod", "product": "Apache Fesod (Incubating)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-11801", "normalised_product": "fineract", "product": "Apache Fineract", "vendor": "Apache"}
+{"cve_id": "CVE-2025-58137", "normalised_product": "fineract", "product": "Apache Fineract", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-5641", "normalised_product": "flex blaze ds", "product": "Apache Flex Blaze DS", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-42468", "normalised_product": "flume", "product": "Apache Flume", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-49361", "normalised_product": "fluss", "product": "Apache Fluss (incubating)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-50076", "normalised_product": "fory", "product": "Apache Fory", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-47410", "normalised_product": "geode", "product": "Apache Geode", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-36152", "normalised_product": "gobblin", "product": "Apache Gobblin", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-41042", "normalised_product": "gravitino", "product": "Apache Gravitino", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-17521", "normalised_product": "groovy", "product": "Apache Groovy", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-35164", "normalised_product": "guacamole", "product": "Apache Guacamole", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-8025", "normalised_product": "hbase", "product": "Apache HBase", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-0212", "normalised_product": "hbase", "product": "Apache HBase", "vendor": "Apache"}
+{"cve_id": "CVE-2022-45470", "normalised_product": "hama", "product": "Apache Hama", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-38647", "normalised_product": "helix", "product": "Apache Helix", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-22281", "normalised_product": "helix front", "product": "Apache Helix Front (UI)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-57111", "normalised_product": "helix rest", "product": "Apache Helix REST", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-42010", "normalised_product": "heron", "product": "Apache Heron (Incubating)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-24683", "normalised_product": "hop engine", "product": "Apache Hop Engine", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-40542", "normalised_product": "httpclient", "product": "Apache HttpClient", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-27820", "normalised_product": "httpcomponents", "product": "Apache HttpComponents", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-54428", "normalised_product": "httpcomponents core", "product": "Apache HttpComponents Core", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-27347", "normalised_product": "hugegraph hubble", "product": "Apache HugeGraph-Hubble", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-26866", "normalised_product": "hugegraph server", "product": "Apache HugeGraph-Server", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2012-3536", "normalised_product": "hupa", "product": "Apache Hupa", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-42467", "normalised_product": "isis", "product": "Apache Isis", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-46751", "normalised_product": "ivy", "product": "Apache Ivy", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-0187", "normalised_product": "jmeter", "product": "Apache JMeter", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-0225", "normalised_product": "jspwiki", "product": "Apache JSPWiki", "vendor": "Apache"}
+{"cve_id": "CVE-2025-24854", "normalised_product": "jspwiki", "product": "Apache JSPWiki", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-53689", "normalised_product": "jackrabbit", "product": "Apache Jackrabbit", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-58782", "normalised_product": "jackrabbit core", "product": "Apache Jackrabbit Core", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-58782", "normalised_product": "jackrabbit jcr commons", "product": "Apache Jackrabbit JCR Commons", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-1940", "normalised_product": "jackrabbit oak", "product": "Apache Jackrabbit Oak", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-37895", "normalised_product": "jackrabbit standalone", "product": "Apache Jackrabbit Standalone (jackrabbit-standalone and jackrabbit-standalone-components)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-37895", "normalised_product": "jackrabbit webapp", "product": "Apache Jackrabbit Webapp (jackrabbit-webapp)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-33008", "normalised_product": "johnzon", "product": "Apache Johnzon", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-57915", "normalised_product": "kerby", "product": "Apache Kerby", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-25613", "normalised_product": "kerby ldap backend", "product": "Apache Kerby LDAP Backend", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-42357", "normalised_product": "knox", "product": "Apache Knox", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-66518", "normalised_product": "kyuubi", "product": "Apache Kyuubi", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-66249", "normalised_product": "livy", "product": "Apache Livy", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-26544", "normalised_product": "livy", "product": "Apache Livy (Incubating)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-40023", "normalised_product": "log4cxx", "product": "Apache Log4cxx", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-40023", "normalised_product": "log4cxx", "product": "Apache Log4cxx (Brew)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-40023", "normalised_product": "log4cxx", "product": "Apache Log4cxx (Conan)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-9488", "normalised_product": "log4j", "product": "Apache Log4j", "vendor": "Apache"}
+{"cve_id": "CVE-2023-26464", "normalised_product": "log4j", "product": "Apache Log4j", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-34479", "normalised_product": "log4j 1 to log4j 2 bridge", "product": "Apache Log4j 1 to Log4j 2 bridge", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-23307", "normalised_product": "log4j 1 x", "product": "Apache Log4j 1.x", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-34480", "normalised_product": "log4j core", "product": "Apache Log4j Core", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-34481", "normalised_product": "log4j json template layout", "product": "Apache Log4j JSON Template Layout", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-45105", "normalised_product": "log4j2", "product": "Apache Log4j2", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-40021", "normalised_product": "log4net", "product": "Apache Log4net", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-45772", "normalised_product": "lucene replicator", "product": "Apache Lucene Replicator", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-47898", "normalised_product": "lucene net", "product": "Apache Lucene.Net", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-43383", "normalised_product": "lucene net replicator", "product": "Apache Lucene.Net.Replicator", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-24294", "normalised_product": "mxnet", "product": "Apache MXNet", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-45910", "normalised_product": "manifoldcf", "product": "Apache ManifoldCF", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-26296", "normalised_product": "myfaces core", "product": "Apache MyFaces Core", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-62235", "normalised_product": "mynewt nimble", "product": "Apache Mynewt NimBLE", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-42404", "normalised_product": "neethi", "product": "Apache Neethi", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-17191", "normalised_product": "netbeans", "product": "Apache NetBeans", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-23901", "normalised_product": "nutch", "product": "Apache Nutch", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-26461", "normalised_product": "nuttx", "product": "Apache NuttX", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-17529", "normalised_product": "nuttx", "product": "Apache NuttX (incubating)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-48769", "normalised_product": "nuttx rtos", "product": "Apache NuttX RTOS", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-47868", "normalised_product": "nuttx rtos tools bdf converter", "product": "Apache NuttX RTOS: tools/bdf-converter.", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-1316", "normalised_product": "ode", "product": "Apache ODE", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-47436", "normalised_product": "orc", "product": "Apache ORC", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-1925", "normalised_product": "olingo", "product": "Apache Olingo", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-26796", "normalised_product": "oozie", "product": "Apache Oozie", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-42440", "normalised_product": "opennlp", "product": "Apache OpenNLP", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-43825", "normalised_product": "opennlp core ml libsvm", "product": "Apache OpenNLP :: Core :: ML :: LibSVM", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-43083", "normalised_product": "plc4x", "product": "Apache PLC4X", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-31672", "normalised_product": "poi", "product": "Apache POI", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-41561", "normalised_product": "parquet", "product": "Apache Parquet", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-46762", "normalised_product": "parquet java", "product": "Apache Parquet Java", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-46548", "normalised_product": "pekko management", "product": "Apache Pekko Management", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-56325", "normalised_product": "pinot", "product": "Apache Pinot", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-0186", "normalised_product": "pluto", "product": "Apache Pluto", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-42812", "normalised_product": "polaris", "product": "Apache Polaris", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-5658", "normalised_product": "pony mail", "product": "Apache Pony Mail", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-0218", "normalised_product": "pony mail", "product": "Apache Pony Mail (incubating)", "vendor": "The Apache Software Foundation"}
+{"cve_id": "CVE-2017-12618", "normalised_product": "portable runtime", "product": "Apache Portable Runtime", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-49582", "normalised_product": "portable runtime", "product": "Apache Portable Runtime (APR)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-25147", "normalised_product": "portable runtime utility", "product": "Apache Portable Runtime Utility (APR-util)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-32533", "normalised_product": "portals", "product": "Apache Portals", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-15699", "normalised_product": "qpid dispatch router", "product": "Apache Qpid Dispatch Router", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-0223", "normalised_product": "qpid proton", "product": "Apache Qpid Proton", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-17187", "normalised_product": "qpid proton j", "product": "Apache Qpid Proton-J", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-68280", "normalised_product": "sis", "product": "Apache SIS", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-45378", "normalised_product": "soap", "product": "Apache SOAP", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-44483", "normalised_product": "santuario", "product": "Apache Santuario", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-12400", "normalised_product": "santuario xml security for java", "product": "Apache Santuario - XML Security for Java", "vendor": "Apache"}
+{"cve_id": "CVE-2024-22399", "normalised_product": "seata", "product": "Apache Seata", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-53606", "normalised_product": "seata", "product": "Apache Seata (incubating)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-8028", "normalised_product": "sentry", "product": "Apache Sentry", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-21501", "normalised_product": "servicecomb", "product": "Apache ServiceComb", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-44313", "normalised_product": "servicecomb service center", "product": "Apache ServiceComb Service-Center", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-17532", "normalised_product": "servicecomb java chassis", "product": "Apache ServiceComb-Java-Chassis", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-31764", "normalised_product": "shardingsphere elasticjob ui", "product": "Apache ShardingSphere ElasticJob-UI", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-1947", "normalised_product": "shardingsphere", "product": "Apache ShardingSphere(incubator)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-45347", "normalised_product": "shardingsphere proxy", "product": "Apache ShardingSphere-Proxy", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-26558", "normalised_product": "shardingsphere ui", "product": "Apache ShardingSphere-UI", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-25753", "normalised_product": "shenyu", "product": "Apache ShenYu", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-26650", "normalised_product": "shenyu", "product": "Apache ShenYu (incubating)", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-37580", "normalised_product": "shenyu admin", "product": "Apache ShenYu Admin", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-30778", "normalised_product": "skywalking", "product": "Apache SkyWalking", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-34476", "normalised_product": "skywalking mcp", "product": "Apache SkyWalking MCP", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-36127", "normalised_product": "skywalking nodejs agent", "product": "Apache SkyWalking NodeJS Agent", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-46302", "normalised_product": "submarine", "product": "Apache Submarine", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-36264", "normalised_product": "submarine commons utils", "product": "Apache Submarine Commons Utils", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-36265", "normalised_product": "submarine server core", "product": "Apache Submarine Server Core", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2017-15708", "normalised_product": "synapse", "product": "Apache Synapse", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-26477", "normalised_product": "systemds", "product": "Apache SystemDS", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-49735", "normalised_product": "tiles", "product": "Apache Tiles", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-8031", "normalised_product": "tomee", "product": "Apache TomEE", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-32287", "normalised_product": "uima", "product": "Apache UIMA", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-8035", "normalised_product": "uima ducc", "product": "Apache UIMA DUCC", "vendor": "Apache"}
+{"cve_id": "CVE-2023-28935", "normalised_product": "uima ducc", "product": "Apache UIMA DUCC", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-39913", "normalised_product": "uima java sdk cpe", "product": "Apache UIMA Java SDK CPE", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-39913", "normalised_product": "uima java sdk core", "product": "Apache UIMA Java SDK Core", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-39913", "normalised_product": "uima java sdk vinci adapter", "product": "Apache UIMA Java SDK Vinci adapter", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-39913", "normalised_product": "uima java sdk tools", "product": "Apache UIMA Java SDK tools", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-68637", "normalised_product": "uniffle", "product": "Apache Uniffle", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-31164", "normalised_product": "unomi", "product": "Apache Unomi", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-53679", "normalised_product": "vcl", "product": "Apache VCL", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-13936", "normalised_product": "velocity engine", "product": "Apache Velocity Engine", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-13959", "normalised_product": "velocity tools", "product": "Apache Velocity Tools", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-42890", "normalised_product": "xml graphics", "product": "Apache XML Graphics", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-44730", "normalised_product": "xml graphics batik", "product": "Apache XML Graphics Batik", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-28168", "normalised_product": "xml graphics fop", "product": "Apache XML Graphics FOP", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-17570", "normalised_product": "xml rpc", "product": "Apache XML-RPC", "vendor": "Apache"}
+{"cve_id": "CVE-2021-23926", "normalised_product": "xmlbeans", "product": "Apache XMLBeans", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-34169", "normalised_product": "xalan j", "product": "Apache Xalan-J", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-23437", "normalised_product": "xerces", "product": "Apache Xerces", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2024-23807", "normalised_product": "xerces c", "product": "Apache Xerces C++", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-1311", "normalised_product": "xerces c", "product": "Apache Xerces-C", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-60021", "normalised_product": "brpc", "product": "Apache bRPC", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2021-37578", "normalised_product": "juddi", "product": "Apache jUDDI", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2020-1929", "normalised_product": "beam", "product": "Beam", "vendor": "Apache"}
+{"cve_id": "CVE-2019-0219", "normalised_product": "cordova", "product": "Cordova", "vendor": "Apache"}
+{"cve_id": "CVE-2026-47430", "normalised_product": "cordova plugin inappbrowser", "product": "Cordova Plugin InAppBrowser", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-11757", "normalised_product": "docker skeleton runtime for openwhisk", "product": "Docker Skeleton Runtime for Apache OpenWhisk", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2025-27821", "normalised_product": "hdfs native client", "product": "HDFS native client", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-45725", "normalised_product": "ibm cloudant", "product": "IBM Cloudant", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-17571", "normalised_product": "log4j", "product": "Log4j", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2019-17556", "normalised_product": "olingo", "product": "Olingo", "vendor": "Apache"}
+{"cve_id": "CVE-2018-11756", "normalised_product": "php runtime for openwhisk", "product": "PHP Runtime for Apache OpenWhisk", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2026-41873", "normalised_product": "pony mail", "product": "Pony Mail", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-47248", "normalised_product": "pyarrow", "product": "PyArrow", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2023-28754", "normalised_product": "shardingsphere agent", "product": "ShardingSphere-Agent", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2018-11774", "normalised_product": "vcl", "product": "VCL", "vendor": "Apache"}
+{"cve_id": "CVE-2023-25197", "normalised_product": "fineract", "product": "apache fineract", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2009-4267", "normalised_product": "juddi", "product": "jUDDI", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-22728", "normalised_product": "libapreq2", "product": "libapreq2", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-47937", "normalised_product": "org sling commons json", "product": "org.apache.sling.commons.json", "vendor": "Apache Software Foundation"}
+{"cve_id": "CVE-2022-26336", "normalised_product": "poi scratchpad", "product": "poi-scratchpad", "vendor": "Apache Software Foundation"}

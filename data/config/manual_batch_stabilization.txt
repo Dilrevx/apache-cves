@@ -1,0 +1,11 @@
+# First stabilization batch
+axis-axis1-java
+cxf-fediz
+incubator-openwhisk-runtime-docker
+unomi
+
+# Second stabilization batch
+cxf
+httpd
+mynewt-nimble
+hive

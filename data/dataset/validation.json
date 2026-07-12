@@ -1,0 +1,12 @@
+{
+  "errors": [],
+  "labels": {
+    "patched": 514,
+    "vulnerable": 514
+  },
+  "pairs": 514,
+  "samples": 1028,
+  "schema_version": "1.0.0",
+  "valid": true,
+  "validated_at": "2026-07-12T20:26:17+00:00"
+}

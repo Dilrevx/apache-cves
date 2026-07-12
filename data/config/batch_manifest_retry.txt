@@ -1,0 +1,12 @@
+activemq-nms-openwire
+asterixdb
+calcite-avatica
+causeway
+cayenne
+commons-bcel
+cordova-android
+cordova-plugin-inappbrowser
+flink-kubernetes-operator
+fluss
+gravitino
+incubator-mxnet

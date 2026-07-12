@@ -1,0 +1,1 @@
+{"attempts": [{"status": "ok", "url": "https://github.com/apache/uniffle.git"}], "clone_mode": "worktree", "filter_blobs": true, "git_proxy": "http://127.0.0.1:7890", "head": "018ac289687079defee1c0631bb9c3ad96c0f58c", "path": "/data/lhq/workspace/apache-vuln-dataset/data/repos/uniffle", "repo": "uniffle", "status": "cloned"}

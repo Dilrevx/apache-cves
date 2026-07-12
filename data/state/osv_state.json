@@ -1,0 +1,8 @@
+{
+  "archive": "/data/lhq/workspace/apache-vuln-dataset/data/raw/osv/all.zip",
+  "archive_sha256": "e63b1ad866b4ea058bdd89f2b682026a8de981007ba8460764a36548c48c50f9",
+  "extracted_records": 795541,
+  "mode": "full",
+  "schema_version": "1.0.0",
+  "synced_at": "2026-07-11T19:02:43+00:00"
+}
