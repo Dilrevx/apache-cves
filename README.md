@@ -10,6 +10,12 @@ verification metadata.
 Downloaded source repositories, raw advisory HTML, and model/audit scratch data
 are intentionally not included in this release repository.
 
+## Benchmark roadmap
+
+This checked-in release is the current `corpus-v1` baseline, not a Gold
+benchmark.  The Dataset Schema 2.0 requirements and release criteria are
+tracked in `docs/apache-cve-llm-audit-benchmark-requirements.md`.
+
 ## Dataset snapshot
 
 The current checked-in corpus is valid according to
