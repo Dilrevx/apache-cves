@@ -1,0 +1,10 @@
+{
+  "apache_downstream": 30,
+  "index": "/data/lhq/workspace/ljl-patch-java30-projects/meta/INDEX.tsv",
+  "non_apache_downstream": 0,
+  "patches": "/data/lhq/workspace/ljl-patch-java30-projects/patches",
+  "requested": 30,
+  "selected": 30,
+  "unique_repositories": 30,
+  "validation_log": "/data/lhq/workspace/ljl-patch-java30-projects/logs/validation.jsonl"
+}
