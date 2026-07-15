@@ -1,0 +1,9 @@
+{
+  "apache_downstream": 18,
+  "index": "/data/lhq/workspace/ljl-patch-java20/meta/INDEX.tsv",
+  "non_apache_downstream": 2,
+  "patches": "/data/lhq/workspace/ljl-patch-java20/patches",
+  "requested": 20,
+  "selected": 20,
+  "validation_log": "/data/lhq/workspace/ljl-patch-java20/logs/validation.jsonl"
+}
