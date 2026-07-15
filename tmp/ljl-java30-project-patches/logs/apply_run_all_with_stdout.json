@@ -1,0 +1,1390 @@
+{
+  "results": [
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-29425__apache__accumulo.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__accumulo",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__accumulo",
+      "cve": "CVE-2021-29425",
+      "exit_code": 0,
+      "idx": 1,
+      "library": "apache-commons-io",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__accumulo/.cve_poc_local/apache-commons-io/CVE-2021-29425/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.6/commons-io-2.6.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2021-29425",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-io",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2021-29425__apache__accumulo"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-29425__apache__accumulo.patch",
+      "repo": "apache/accumulo",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2021-29425"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__accumulo/.cve_poc_local/apache-commons-io/CVE-2021-29425/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.6/commons-io-2.6.jar\", \"com.example.App\"], \"cve\": \"CVE-2021-29425\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-io\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2021-29425__apache__accumulo\"}\n",
+      "sample_id": "CVE-2021-29425__apache__accumulo",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-8840__apache__ambari.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__ambari",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__ambari",
+      "cve": "CVE-2020-8840",
+      "exit_code": 0,
+      "idx": 2,
+      "library": "jackson",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__ambari/.cve_poc_local/jackson/CVE-2020-8840/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xbean/xbean-reflect/4.15/xbean-reflect-4.15.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2020-8840",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "jackson",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2020-8840__apache__ambari"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-8840__apache__ambari.patch",
+      "repo": "apache/ambari",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2020-8840"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__ambari/.cve_poc_local/jackson/CVE-2020-8840/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xbean/xbean-reflect/4.15/xbean-reflect-4.15.jar\", \"com.example.App\"], \"cve\": \"CVE-2020-8840\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"jackson\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2020-8840__apache__ambari\"}\n",
+      "sample_id": "CVE-2020-8840__apache__ambari",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__atlas.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__atlas.patch:648: new blank line at EOF.\n+\nwarning: 1 line adds whitespace errors.\n",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__atlas",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__atlas",
+      "cve": "CVE-2021-44228",
+      "exit_code": 0,
+      "idx": 3,
+      "library": "log4j",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__atlas/.cve_poc_local/log4j/CVE-2021-44228/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2021-44228",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "log4j",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2021-44228__apache__atlas"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__atlas.patch",
+      "repo": "apache/atlas",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2021-44228"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__atlas/.cve_poc_local/log4j/CVE-2021-44228/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar\", \"com.example.App\"], \"cve\": \"CVE-2021-44228\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"log4j\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2021-44228__apache__atlas\"}\n",
+      "sample_id": "CVE-2021-44228__apache__atlas",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__bookkeeper.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__bookkeeper.patch:19: trailing whitespace.\n- package `org.apache.servicemix.bundles:org.apache.servicemix.bundles.collections-generic` (Maven): vulnerable from 4.01.0 until fixed in \nwarning: 1 line adds whitespace errors.\n",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__bookkeeper",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__bookkeeper",
+      "cve": "CVE-2015-7501",
+      "exit_code": 0,
+      "idx": 4,
+      "library": "apache-commons-collections",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__bookkeeper/.cve_poc_local/apache-commons-collections/CVE-2015-7501/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2015-7501",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-collections",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2015-7501__apache__bookkeeper"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__bookkeeper.patch",
+      "repo": "apache/bookkeeper",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2015-7501"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__bookkeeper/.cve_poc_local/apache-commons-collections/CVE-2015-7501/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar\", \"com.example.App\"], \"cve\": \"CVE-2015-7501\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-collections\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2015-7501__apache__bookkeeper\"}\n",
+      "sample_id": "CVE-2015-7501__apache__bookkeeper",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2014-0114__apache__brooklyn-server.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__brooklyn-server",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__brooklyn-server",
+      "cve": "CVE-2014-0114",
+      "exit_code": 0,
+      "idx": 5,
+      "library": "apache-commons-beanutils",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__brooklyn-server/.cve_poc_local/apache-commons-beanutils/CVE-2014-0114/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2014-0114",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-beanutils",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2014-0114__apache__brooklyn-server"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2014-0114__apache__brooklyn-server.patch",
+      "repo": "apache/brooklyn-server",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2014-0114"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__brooklyn-server/.cve_poc_local/apache-commons-beanutils/CVE-2014-0114/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\", \"com.example.App\"], \"cve\": \"CVE-2014-0114\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-beanutils\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2014-0114__apache__brooklyn-server\"}\n",
+      "sample_id": "CVE-2014-0114__apache__brooklyn-server",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2023-26049__apache__beam.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__beam",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__beam",
+      "cve": "CVE-2023-26049",
+      "exit_code": 0,
+      "idx": 6,
+      "library": "jetty",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__beam/.cve_poc_local/jetty/CVE-2023-26049/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-server/9.4.50.v20221201/jetty-server-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-http/9.4.50.v20221201/jetty-http-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-util/9.4.50.v20221201/jetty-util-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-io/9.4.50.v20221201/jetty-io-9.4.50.v20221201.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2023-26049",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "jetty",
+        "output": "2026-07-16 04:57:26.400:INFO::main: Logging initialized @69ms to org.eclipse.jetty.util.log.StdErrLog\n[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2023-26049__apache__beam"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2023-26049__apache__beam.patch",
+      "repo": "apache/beam",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2023-26049"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__beam/.cve_poc_local/jetty/CVE-2023-26049/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-server/9.4.50.v20221201/jetty-server-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-http/9.4.50.v20221201/jetty-http-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-util/9.4.50.v20221201/jetty-util-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-io/9.4.50.v20221201/jetty-io-9.4.50.v20221201.jar\", \"com.example.App\"], \"cve\": \"CVE-2023-26049\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"jetty\", \"output\": \"2026-07-16 04:57:26.400:INFO::main: Logging initialized @69ms to org.eclipse.jetty.util.log.StdErrLog\\n[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2023-26049__apache__beam\"}\n",
+      "sample_id": "CVE-2023-26049__apache__beam",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2018-1000632__apache__cxf.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__cxf",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__cxf",
+      "cve": "CVE-2018-1000632",
+      "exit_code": 0,
+      "idx": 7,
+      "library": "dom4j",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__cxf/.cve_poc_local/dom4j/CVE-2018-1000632/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/dom4j/dom4j/2.1.0/dom4j-2.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2018-1000632",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "dom4j",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2018-1000632__apache__cxf"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2018-1000632__apache__cxf.patch",
+      "repo": "apache/cxf",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2018-1000632"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__cxf/.cve_poc_local/dom4j/CVE-2018-1000632/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/dom4j/dom4j/2.1.0/dom4j-2.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar\", \"com.example.App\"], \"cve\": \"CVE-2018-1000632\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"dom4j\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2018-1000632__apache__cxf\"}\n",
+      "sample_id": "CVE-2018-1000632__apache__cxf",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-13933__apache__geode.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__geode",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__geode",
+      "cve": "CVE-2020-13933",
+      "exit_code": 0,
+      "idx": 8,
+      "library": "apache-shiro",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__geode/.cve_poc_local/apache-shiro/CVE-2020-13933/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-core/1.5.3/shiro-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-lang/1.5.3/shiro-lang-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-cache/1.5.3/shiro-cache-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-hash/1.5.3/shiro-crypto-hash-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-core/1.5.3/shiro-crypto-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-cipher/1.5.3/shiro-crypto-cipher-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-core/1.5.3/shiro-config-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-ogdl/1.5.3/shiro-config-ogdl-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-event/1.5.3/shiro-event-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-web/1.5.3/shiro-web-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2020-13933",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-shiro",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2020-13933__apache__geode"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-13933__apache__geode.patch",
+      "repo": "apache/geode",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2020-13933"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__geode/.cve_poc_local/apache-shiro/CVE-2020-13933/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-core/1.5.3/shiro-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-lang/1.5.3/shiro-lang-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-cache/1.5.3/shiro-cache-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-hash/1.5.3/shiro-crypto-hash-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-core/1.5.3/shiro-crypto-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-cipher/1.5.3/shiro-crypto-cipher-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-core/1.5.3/shiro-config-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-ogdl/1.5.3/shiro-config-ogdl-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-event/1.5.3/shiro-event-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-web/1.5.3/shiro-web-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar\", \"com.example.App\"], \"cve\": \"CVE-2020-13933\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-shiro\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2020-13933__apache__geode\"}\n",
+      "sample_id": "CVE-2020-13933__apache__geode",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2016-1000031__apache__jackrabbit.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2016-1000031__apache__jackrabbit",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__jackrabbit",
+      "cve": "CVE-2016-1000031",
+      "exit_code": 0,
+      "idx": 9,
+      "library": "apache-commons-fileupload",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2016-1000031__apache__jackrabbit/.cve_poc_local/apache-commons-fileupload/CVE-2016-1000031/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.2/commons-io-2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2016-1000031",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-fileupload",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2016-1000031__apache__jackrabbit"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2016-1000031__apache__jackrabbit.patch",
+      "repo": "apache/jackrabbit",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2016-1000031"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2016-1000031__apache__jackrabbit/.cve_poc_local/apache-commons-fileupload/CVE-2016-1000031/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.2/commons-io-2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar\", \"com.example.App\"], \"cve\": \"CVE-2016-1000031\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-fileupload\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2016-1000031__apache__jackrabbit\"}\n",
+      "sample_id": "CVE-2016-1000031__apache__jackrabbit",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2026-42584__apache__camel.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2026-42584__apache__camel",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__camel",
+      "cve": "CVE-2026-42584",
+      "exit_code": 0,
+      "idx": 10,
+      "library": "netty",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2026-42584__apache__camel/.cve_poc_local/netty/CVE-2026-42584/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2026-42584",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "netty",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2026-42584__apache__camel"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2026-42584__apache__camel.patch",
+      "repo": "apache/camel",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2026-42584"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2026-42584__apache__camel/.cve_poc_local/netty/CVE-2026-42584/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar\", \"com.example.App\"], \"cve\": \"CVE-2026-42584\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"netty\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2026-42584__apache__camel\"}\n",
+      "sample_id": "CVE-2026-42584__apache__camel",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-23926__apache__kylin.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-23926__apache__kylin",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__kylin",
+      "cve": "CVE-2021-23926",
+      "exit_code": 0,
+      "idx": 11,
+      "library": "apache-xmlbeans",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-23926__apache__kylin/.cve_poc_local/apache-xmlbeans/CVE-2021-23926/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/stax/stax-api/1.0.1/stax-api-1.0.1.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2021-23926",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-xmlbeans",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2021-23926__apache__kylin"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-23926__apache__kylin.patch",
+      "repo": "apache/kylin",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2021-23926"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-23926__apache__kylin/.cve_poc_local/apache-xmlbeans/CVE-2021-23926/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/stax/stax-api/1.0.1/stax-api-1.0.1.jar\", \"com.example.App\"], \"cve\": \"CVE-2021-23926\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-xmlbeans\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2021-23926__apache__kylin\"}\n",
+      "sample_id": "CVE-2021-23926__apache__kylin",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-29425__apache__calcite.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__calcite",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__calcite",
+      "cve": "CVE-2021-29425",
+      "exit_code": 0,
+      "idx": 12,
+      "library": "apache-commons-io",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__calcite/.cve_poc_local/apache-commons-io/CVE-2021-29425/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.6/commons-io-2.6.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2021-29425",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-io",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2021-29425__apache__calcite"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-29425__apache__calcite.patch",
+      "repo": "apache/calcite",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2021-29425"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__calcite/.cve_poc_local/apache-commons-io/CVE-2021-29425/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.6/commons-io-2.6.jar\", \"com.example.App\"], \"cve\": \"CVE-2021-29425\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-io\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2021-29425__apache__calcite\"}\n",
+      "sample_id": "CVE-2021-29425__apache__calcite",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-8840__apache__druid.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__druid",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__druid",
+      "cve": "CVE-2020-8840",
+      "exit_code": 0,
+      "idx": 13,
+      "library": "jackson",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__druid/.cve_poc_local/jackson/CVE-2020-8840/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xbean/xbean-reflect/4.15/xbean-reflect-4.15.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2020-8840",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "jackson",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2020-8840__apache__druid"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-8840__apache__druid.patch",
+      "repo": "apache/druid",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2020-8840"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__druid/.cve_poc_local/jackson/CVE-2020-8840/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xbean/xbean-reflect/4.15/xbean-reflect-4.15.jar\", \"com.example.App\"], \"cve\": \"CVE-2020-8840\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"jackson\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2020-8840__apache__druid\"}\n",
+      "sample_id": "CVE-2020-8840__apache__druid",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__dubbo.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__dubbo.patch:648: new blank line at EOF.\n+\nwarning: 1 line adds whitespace errors.\n",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__dubbo",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__dubbo",
+      "cve": "CVE-2021-44228",
+      "exit_code": 0,
+      "idx": 14,
+      "library": "log4j",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__dubbo/.cve_poc_local/log4j/CVE-2021-44228/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2021-44228",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "log4j",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2021-44228__apache__dubbo"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__dubbo.patch",
+      "repo": "apache/dubbo",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2021-44228"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__dubbo/.cve_poc_local/log4j/CVE-2021-44228/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar\", \"com.example.App\"], \"cve\": \"CVE-2021-44228\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"log4j\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2021-44228__apache__dubbo\"}\n",
+      "sample_id": "CVE-2021-44228__apache__dubbo",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__gobblin.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__gobblin.patch:19: trailing whitespace.\n- package `org.apache.servicemix.bundles:org.apache.servicemix.bundles.collections-generic` (Maven): vulnerable from 4.01.0 until fixed in \nwarning: 1 line adds whitespace errors.\n",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__gobblin",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__gobblin",
+      "cve": "CVE-2015-7501",
+      "exit_code": 0,
+      "idx": 15,
+      "library": "apache-commons-collections",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__gobblin/.cve_poc_local/apache-commons-collections/CVE-2015-7501/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2015-7501",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-collections",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2015-7501__apache__gobblin"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__gobblin.patch",
+      "repo": "apache/gobblin",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2015-7501"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__gobblin/.cve_poc_local/apache-commons-collections/CVE-2015-7501/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar\", \"com.example.App\"], \"cve\": \"CVE-2015-7501\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-collections\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2015-7501__apache__gobblin\"}\n",
+      "sample_id": "CVE-2015-7501__apache__gobblin",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2014-0114__apache__flink.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__flink",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__flink",
+      "cve": "CVE-2014-0114",
+      "exit_code": 0,
+      "idx": 16,
+      "library": "apache-commons-beanutils",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__flink/.cve_poc_local/apache-commons-beanutils/CVE-2014-0114/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2014-0114",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-beanutils",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2014-0114__apache__flink"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2014-0114__apache__flink.patch",
+      "repo": "apache/flink",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2014-0114"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__flink/.cve_poc_local/apache-commons-beanutils/CVE-2014-0114/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\", \"com.example.App\"], \"cve\": \"CVE-2014-0114\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-beanutils\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2014-0114__apache__flink\"}\n",
+      "sample_id": "CVE-2014-0114__apache__flink",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2023-26049__apache__hadoop.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__hadoop",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__hadoop",
+      "cve": "CVE-2023-26049",
+      "exit_code": 0,
+      "idx": 17,
+      "library": "jetty",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__hadoop/.cve_poc_local/jetty/CVE-2023-26049/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-server/9.4.50.v20221201/jetty-server-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-http/9.4.50.v20221201/jetty-http-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-util/9.4.50.v20221201/jetty-util-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-io/9.4.50.v20221201/jetty-io-9.4.50.v20221201.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2023-26049",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "jetty",
+        "output": "2026-07-16 04:57:49.128:INFO::main: Logging initialized @85ms to org.eclipse.jetty.util.log.StdErrLog\n[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2023-26049__apache__hadoop"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2023-26049__apache__hadoop.patch",
+      "repo": "apache/hadoop",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2023-26049"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__hadoop/.cve_poc_local/jetty/CVE-2023-26049/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-server/9.4.50.v20221201/jetty-server-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-http/9.4.50.v20221201/jetty-http-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-util/9.4.50.v20221201/jetty-util-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-io/9.4.50.v20221201/jetty-io-9.4.50.v20221201.jar\", \"com.example.App\"], \"cve\": \"CVE-2023-26049\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"jetty\", \"output\": \"2026-07-16 04:57:49.128:INFO::main: Logging initialized @85ms to org.eclipse.jetty.util.log.StdErrLog\\n[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2023-26049__apache__hadoop\"}\n",
+      "sample_id": "CVE-2023-26049__apache__hadoop",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2018-1000632__apache__hive.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__hive",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__hive",
+      "cve": "CVE-2018-1000632",
+      "exit_code": 0,
+      "idx": 18,
+      "library": "dom4j",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__hive/.cve_poc_local/dom4j/CVE-2018-1000632/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/dom4j/dom4j/2.1.0/dom4j-2.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2018-1000632",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "dom4j",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2018-1000632__apache__hive"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2018-1000632__apache__hive.patch",
+      "repo": "apache/hive",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2018-1000632"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__hive/.cve_poc_local/dom4j/CVE-2018-1000632/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/dom4j/dom4j/2.1.0/dom4j-2.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar\", \"com.example.App\"], \"cve\": \"CVE-2018-1000632\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"dom4j\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2018-1000632__apache__hive\"}\n",
+      "sample_id": "CVE-2018-1000632__apache__hive",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-13933__apache__jena.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__jena",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__jena",
+      "cve": "CVE-2020-13933",
+      "exit_code": 0,
+      "idx": 19,
+      "library": "apache-shiro",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__jena/.cve_poc_local/apache-shiro/CVE-2020-13933/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-core/1.5.3/shiro-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-lang/1.5.3/shiro-lang-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-cache/1.5.3/shiro-cache-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-hash/1.5.3/shiro-crypto-hash-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-core/1.5.3/shiro-crypto-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-cipher/1.5.3/shiro-crypto-cipher-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-core/1.5.3/shiro-config-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-ogdl/1.5.3/shiro-config-ogdl-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-event/1.5.3/shiro-event-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-web/1.5.3/shiro-web-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2020-13933",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-shiro",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2020-13933__apache__jena"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-13933__apache__jena.patch",
+      "repo": "apache/jena",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2020-13933"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__jena/.cve_poc_local/apache-shiro/CVE-2020-13933/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-core/1.5.3/shiro-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-lang/1.5.3/shiro-lang-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-cache/1.5.3/shiro-cache-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-hash/1.5.3/shiro-crypto-hash-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-core/1.5.3/shiro-crypto-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-cipher/1.5.3/shiro-crypto-cipher-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-core/1.5.3/shiro-config-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-ogdl/1.5.3/shiro-config-ogdl-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-event/1.5.3/shiro-event-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-web/1.5.3/shiro-web-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar\", \"com.example.App\"], \"cve\": \"CVE-2020-13933\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-shiro\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2020-13933__apache__jena\"}\n",
+      "sample_id": "CVE-2020-13933__apache__jena",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2016-1000031__apache__james-project.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2016-1000031__apache__james-project",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__james-project",
+      "cve": "CVE-2016-1000031",
+      "exit_code": 0,
+      "idx": 20,
+      "library": "apache-commons-fileupload",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2016-1000031__apache__james-project/.cve_poc_local/apache-commons-fileupload/CVE-2016-1000031/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.2/commons-io-2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2016-1000031",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-fileupload",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2016-1000031__apache__james-project"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2016-1000031__apache__james-project.patch",
+      "repo": "apache/james-project",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2016-1000031"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2016-1000031__apache__james-project/.cve_poc_local/apache-commons-fileupload/CVE-2016-1000031/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.2/commons-io-2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar\", \"com.example.App\"], \"cve\": \"CVE-2016-1000031\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-fileupload\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2016-1000031__apache__james-project\"}\n",
+      "sample_id": "CVE-2016-1000031__apache__james-project",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2026-42584__apache__hop.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2026-42584__apache__hop",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__hop",
+      "cve": "CVE-2026-42584",
+      "exit_code": 0,
+      "idx": 21,
+      "library": "netty",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2026-42584__apache__hop/.cve_poc_local/netty/CVE-2026-42584/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2026-42584",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "netty",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2026-42584__apache__hop"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2026-42584__apache__hop.patch",
+      "repo": "apache/hop",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2026-42584"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2026-42584__apache__hop/.cve_poc_local/netty/CVE-2026-42584/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar\", \"com.example.App\"], \"cve\": \"CVE-2026-42584\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"netty\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2026-42584__apache__hop\"}\n",
+      "sample_id": "CVE-2026-42584__apache__hop",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-23926__apache__poi.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-23926__apache__poi",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__poi",
+      "cve": "CVE-2021-23926",
+      "exit_code": 0,
+      "idx": 22,
+      "library": "apache-xmlbeans",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-23926__apache__poi/.cve_poc_local/apache-xmlbeans/CVE-2021-23926/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/stax/stax-api/1.0.1/stax-api-1.0.1.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2021-23926",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-xmlbeans",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2021-23926__apache__poi"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-23926__apache__poi.patch",
+      "repo": "apache/poi",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2021-23926"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-23926__apache__poi/.cve_poc_local/apache-xmlbeans/CVE-2021-23926/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/stax/stax-api/1.0.1/stax-api-1.0.1.jar\", \"com.example.App\"], \"cve\": \"CVE-2021-23926\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-xmlbeans\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2021-23926__apache__poi\"}\n",
+      "sample_id": "CVE-2021-23926__apache__poi",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-29425__apache__hbase.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__hbase",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__hbase",
+      "cve": "CVE-2021-29425",
+      "exit_code": 0,
+      "idx": 23,
+      "library": "apache-commons-io",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__hbase/.cve_poc_local/apache-commons-io/CVE-2021-29425/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.6/commons-io-2.6.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2021-29425",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-io",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2021-29425__apache__hbase"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-29425__apache__hbase.patch",
+      "repo": "apache/hbase",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2021-29425"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-29425__apache__hbase/.cve_poc_local/apache-commons-io/CVE-2021-29425/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-io/commons-io/2.6/commons-io-2.6.jar\", \"com.example.App\"], \"cve\": \"CVE-2021-29425\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-io\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2021-29425__apache__hbase\"}\n",
+      "sample_id": "CVE-2021-29425__apache__hbase",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-8840__apache__helix.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__helix",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__helix",
+      "cve": "CVE-2020-8840",
+      "exit_code": 0,
+      "idx": 24,
+      "library": "jackson",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__helix/.cve_poc_local/jackson/CVE-2020-8840/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xbean/xbean-reflect/4.15/xbean-reflect-4.15.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2020-8840",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "jackson",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2020-8840__apache__helix"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-8840__apache__helix.patch",
+      "repo": "apache/helix",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2020-8840"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-8840__apache__helix/.cve_poc_local/jackson/CVE-2020-8840/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/xbean/xbean-reflect/4.15/xbean-reflect-4.15.jar\", \"com.example.App\"], \"cve\": \"CVE-2020-8840\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"jackson\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2020-8840__apache__helix\"}\n",
+      "sample_id": "CVE-2020-8840__apache__helix",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__ignite.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__ignite.patch:648: new blank line at EOF.\n+\nwarning: 1 line adds whitespace errors.\n",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__ignite",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__ignite",
+      "cve": "CVE-2021-44228",
+      "exit_code": 0,
+      "idx": 25,
+      "library": "log4j",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__ignite/.cve_poc_local/log4j/CVE-2021-44228/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2021-44228",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "log4j",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2021-44228__apache__ignite"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2021-44228__apache__ignite.patch",
+      "repo": "apache/ignite",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2021-44228"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2021-44228__apache__ignite/.cve_poc_local/log4j/CVE-2021-44228/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar\", \"com.example.App\"], \"cve\": \"CVE-2021-44228\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"log4j\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2021-44228__apache__ignite\"}\n",
+      "sample_id": "CVE-2021-44228__apache__ignite",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__jmeter.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__jmeter.patch:19: trailing whitespace.\n- package `org.apache.servicemix.bundles:org.apache.servicemix.bundles.collections-generic` (Maven): vulnerable from 4.01.0 until fixed in \nwarning: 1 line adds whitespace errors.\n",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__jmeter",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__jmeter",
+      "cve": "CVE-2015-7501",
+      "exit_code": 0,
+      "idx": 26,
+      "library": "apache-commons-collections",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__jmeter/.cve_poc_local/apache-commons-collections/CVE-2015-7501/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2015-7501",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-collections",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2015-7501__apache__jmeter"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2015-7501__apache__jmeter.patch",
+      "repo": "apache/jmeter",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2015-7501"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2015-7501__apache__jmeter/.cve_poc_local/apache-commons-collections/CVE-2015-7501/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar\", \"com.example.App\"], \"cve\": \"CVE-2015-7501\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-collections\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2015-7501__apache__jmeter\"}\n",
+      "sample_id": "CVE-2015-7501__apache__jmeter",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2014-0114__apache__karaf.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__karaf",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__karaf",
+      "cve": "CVE-2014-0114",
+      "exit_code": 0,
+      "idx": 27,
+      "library": "apache-commons-beanutils",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__karaf/.cve_poc_local/apache-commons-beanutils/CVE-2014-0114/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2014-0114",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-commons-beanutils",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2014-0114__apache__karaf"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2014-0114__apache__karaf.patch",
+      "repo": "apache/karaf",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2014-0114"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2014-0114__apache__karaf/.cve_poc_local/apache-commons-beanutils/CVE-2014-0114/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar\", \"com.example.App\"], \"cve\": \"CVE-2014-0114\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-commons-beanutils\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2014-0114__apache__karaf\"}\n",
+      "sample_id": "CVE-2014-0114__apache__karaf",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2023-26049__apache__knox.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__knox",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__knox",
+      "cve": "CVE-2023-26049",
+      "exit_code": 0,
+      "idx": 28,
+      "library": "jetty",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__knox/.cve_poc_local/jetty/CVE-2023-26049/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-server/9.4.50.v20221201/jetty-server-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-http/9.4.50.v20221201/jetty-http-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-util/9.4.50.v20221201/jetty-util-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-io/9.4.50.v20221201/jetty-io-9.4.50.v20221201.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2023-26049",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "jetty",
+        "output": "2026-07-16 04:58:18.500:INFO::main: Logging initialized @82ms to org.eclipse.jetty.util.log.StdErrLog\n[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2023-26049__apache__knox"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2023-26049__apache__knox.patch",
+      "repo": "apache/knox",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2023-26049"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2023-26049__apache__knox/.cve_poc_local/jetty/CVE-2023-26049/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-server/9.4.50.v20221201/jetty-server-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-http/9.4.50.v20221201/jetty-http-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-util/9.4.50.v20221201/jetty-util-9.4.50.v20221201.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/eclipse/jetty/jetty-io/9.4.50.v20221201/jetty-io-9.4.50.v20221201.jar\", \"com.example.App\"], \"cve\": \"CVE-2023-26049\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"jetty\", \"output\": \"2026-07-16 04:58:18.500:INFO::main: Logging initialized @82ms to org.eclipse.jetty.util.log.StdErrLog\\n[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2023-26049__apache__knox\"}\n",
+      "sample_id": "CVE-2023-26049__apache__knox",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2018-1000632__apache__maven.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__maven",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__maven",
+      "cve": "CVE-2018-1000632",
+      "exit_code": 0,
+      "idx": 29,
+      "library": "dom4j",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__maven/.cve_poc_local/dom4j/CVE-2018-1000632/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/dom4j/dom4j/2.1.0/dom4j-2.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2018-1000632",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "dom4j",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2018-1000632__apache__maven"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2018-1000632__apache__maven.patch",
+      "repo": "apache/maven",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2018-1000632"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2018-1000632__apache__maven/.cve_poc_local/dom4j/CVE-2018-1000632/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/dom4j/dom4j/2.1.0/dom4j-2.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/jaxen/jaxen/1.1.6/jaxen-1.1.6.jar\", \"com.example.App\"], \"cve\": \"CVE-2018-1000632\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"dom4j\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2018-1000632__apache__maven\"}\n",
+      "sample_id": "CVE-2018-1000632__apache__maven",
+      "tp": true
+    },
+    {
+      "actual": "1",
+      "apply_cmd": [
+        "git",
+        "apply",
+        "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-13933__apache__ranger.patch"
+      ],
+      "apply_rc": 0,
+      "apply_stderr": "",
+      "apply_stdout": "",
+      "audit_dir": "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__ranger",
+      "clean_repo_source": "/data/lhq/workspace/ljl-patch-java30-projects/repos/apache__ranger",
+      "cve": "CVE-2020-13933",
+      "exit_code": 0,
+      "idx": 30,
+      "library": "apache-shiro",
+      "parsed": {
+        "actual": "1",
+        "command": [
+          "java",
+          "-cp",
+          "/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__ranger/.cve_poc_local/apache-shiro/CVE-2020-13933/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-core/1.5.3/shiro-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-lang/1.5.3/shiro-lang-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-cache/1.5.3/shiro-cache-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-hash/1.5.3/shiro-crypto-hash-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-core/1.5.3/shiro-crypto-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-cipher/1.5.3/shiro-crypto-cipher-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-core/1.5.3/shiro-config-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-ogdl/1.5.3/shiro-config-ogdl-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-event/1.5.3/shiro-event-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-web/1.5.3/shiro-web-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+          "com.example.App"
+        ],
+        "cve": "CVE-2020-13933",
+        "exit_code": 0,
+        "expected": "1",
+        "library": "apache-shiro",
+        "output": "[*] step 1 done\n[*] step 2 done\n[*] complete\n",
+        "pass": true,
+        "project": "CVE-2020-13933__apache__ranger"
+      },
+      "pass": true,
+      "patch": "/data/lhq/workspace/ljl-patch-java30-projects/patches/CVE-2020-13933__apache__ranger.patch",
+      "repo": "apache/ranger",
+      "run_cmd": [
+        "python3",
+        ".cve_poc_local/run_local_cve_poc.py",
+        "CVE-2020-13933"
+      ],
+      "run_rc": 0,
+      "run_stderr": "",
+      "run_stdout": "{\"actual\": \"1\", \"command\": [\"java\", \"-cp\", \"/data/lhq/workspace/ljl-patch-java30-projects/audit_apply_run_all_stdout/CVE-2020-13933__apache__ranger/.cve_poc_local/apache-shiro/CVE-2020-13933/v1/target/classes:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-core/1.5.3/shiro-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-lang/1.5.3/shiro-lang-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-cache/1.5.3/shiro-cache-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-hash/1.5.3/shiro-crypto-hash-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-core/1.5.3/shiro-crypto-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-crypto-cipher/1.5.3/shiro-crypto-cipher-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-core/1.5.3/shiro-config-core-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-config-ogdl/1.5.3/shiro-config-ogdl-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-event/1.5.3/shiro-event-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/apache/shiro/shiro-web/1.5.3/shiro-web-1.5.3.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/owasp/encoder/encoder/1.2.2/encoder-1.2.2.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-nop/1.7.30/slf4j-nop-1.7.30.jar:/data/lhq/workspace/ljl-patch-java30-projects/.m2-poc/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar\", \"com.example.App\"], \"cve\": \"CVE-2020-13933\", \"exit_code\": 0, \"expected\": \"1\", \"library\": \"apache-shiro\", \"output\": \"[*] step 1 done\\n[*] step 2 done\\n[*] complete\\n\", \"pass\": true, \"project\": \"CVE-2020-13933__apache__ranger\"}\n",
+      "sample_id": "CVE-2020-13933__apache__ranger",
+      "tp": true
+    }
+  ],
+  "summary": {
+    "checked": 30,
+    "elapsed_seconds": 76.28,
+    "errors": [],
+    "passed": 30
+  }
+}
