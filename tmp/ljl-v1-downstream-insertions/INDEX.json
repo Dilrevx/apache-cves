@@ -255,6 +255,7 @@
         "url": "http://127.0.0.1:34907/$/ping"
       }
     },
+    "manifest": "samples/CVE-2020-13933__apache_jena__fuseki_v1_shiro_real_entrypoint/manifest.json",
     "not_cve_poc_local": true,
     "not_runner_only": true,
     "notes": "The verifier does not execute .cve_poc_local. It inserts the v1 Shiro 1.5.3 runtime into an isolated Fuseki distribution and sends HTTP requests to Fuseki's real management endpoints.",
@@ -326,6 +327,7 @@
       ],
       "positive_listener_received_count": 1
     },
+    "manifest": "samples/CVE-2021-42550__apache_iotdb_0_12_3_v1_logback_real_entrypoint/manifest.json",
     "negative": {
       "case": "negative",
       "cmd": [
@@ -439,6 +441,7 @@
       ],
       "positive_listener_received_count": 1
     },
+    "manifest": "samples/CVE-2021-42550__apache_nifi_stateless_1_14_0_v1_logback_real_entrypoint/manifest.json",
     "negative": {
       "case": "negative",
       "entrypoint": "bin/nifi-stateless.sh --help",
@@ -474,6 +477,278 @@
     "source_v1_path": "/data/lhq/workspace/ljl-patch-java30-projects/input/logback/CVE-2021-42550/v1",
     "status": "TP_CONFIRMED_REAL_DOWNSTREAM_ENTRYPOINT",
     "upstream_library": "logback",
+    "vulnerable_version": "1.2.7"
+  },
+  {
+    "artifact": "/data/lhq/workspace/ljl-strict-redo/historical-scan/rocketmq-all-4.9.2-bin-release.zip",
+    "attack_surface": "RocketMQ NameServer's real startup script loads conf/logback_namesrv.xml; the inserted v1 logback-core resolves JNDIConnectionSource before the long-running NameServer process is terminated by the verifier",
+    "cve": "CVE-2021-42550",
+    "dependency_evidence": {
+      "artifact": "/data/lhq/workspace/ljl-strict-redo/historical-scan/rocketmq-all-4.9.2-bin-release.zip",
+      "before_insertion": {
+        "logback-classic-1.0.13.jar": {
+          "inspection_before": {
+            "exists": true,
+            "jndi_connection_source_class_present": false,
+            "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar",
+            "version": "1.0.13"
+          },
+          "sha256_before": "12c1930ca91653422ac49fea33fce8be1b1fcd2d2220cea383c4794976c7418f",
+          "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar"
+        },
+        "logback-core-1.0.13.jar": {
+          "inspection_before": {
+            "exists": true,
+            "jndi_connection_source_class_present": true,
+            "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar",
+            "version": "1.0.13"
+          },
+          "sha256_before": "ecd8f24f9b2941284e98f154ff3343e720cb31c8f47b67554b145745f596f3b8",
+          "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar"
+        }
+      },
+      "inserted_auxiliary_jars": {
+        "logback-classic-1.0.13.jar": {
+          "inspection_after": {
+            "exists": true,
+            "jndi_connection_source_class_present": false,
+            "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar",
+            "version": "1.2.7"
+          },
+          "is_generated_v1_runtime_jar": false,
+          "reason": "RocketMQ 4.9.2 ships logback-classic 1.0.13, which is binary-incompatible with the inserted v1-selected logback-core 1.2.7. The matching classic jar is inserted only as a compatibility adapter so the real mqnamesrv entrypoint can load the vulnerable core path.",
+          "sha256_source": "fed605d7079d9e90b1fa39d913b0f2334d7442eaf754ebe865be6076064f396a",
+          "sha256_target_after": "fed605d7079d9e90b1fa39d913b0f2334d7442eaf754ebe865be6076064f396a",
+          "source_auxiliary_jar": "/data/lhq/workspace/ljl-v1-downstream-insertions/vendor-m2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar",
+          "target_filename_preserved_for_downstream_classpath": true,
+          "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar"
+        }
+      },
+      "inserted_v1_jars": {
+        "logback-core-1.0.13.jar": {
+          "inspection_after": {
+            "exists": true,
+            "jndi_connection_source_class_present": true,
+            "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar",
+            "version": "1.2.7"
+          },
+          "is_generated_v1_runtime_jar": true,
+          "sha256_source": "763ead25f9be559fe7799d6a0660c085a9091eba59e961a4734597deb10c2938",
+          "sha256_target_after": "763ead25f9be559fe7799d6a0660c085a9091eba59e961a4734597deb10c2938",
+          "source_v1_runtime_jar": "/data/lhq/workspace/ljl-v1-downstream-insertions/vendor-m2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar",
+          "target_filename_preserved_for_downstream_classpath": true,
+          "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar"
+        }
+      },
+      "insertion_method": "isolated runtime dependency insertion: official Apache RocketMQ 4.9.2 binary with generated-v1-selected vulnerable logback-core 1.2.7 bytes copied into the original RocketMQ logback-core 1.0.13 runtime filename before invoking the real bin/mqnamesrv entrypoint; logback-classic 1.2.7 is copied into the original classic filename only as a compatibility adapter",
+      "runtime_logback_jars_after_insertion": [
+        "lib/logback-classic-1.0.13.jar",
+        "lib/logback-core-1.0.13.jar"
+      ],
+      "source_case": "logback/CVE-2021-42550",
+      "source_v1": "/data/lhq/workspace/ljl-patch-java30-projects/input/logback/CVE-2021-42550/v1"
+    },
+    "dependency_evidence_file": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/evidence/dependency-evidence.json",
+    "downstream": "Apache RocketMQ 4.9.2",
+    "downstream_application": "Apache RocketMQ 4.9.2 NameServer",
+    "downstream_entrypoint": "bin/mqnamesrv",
+    "downstream_repo": "apache/rocketmq",
+    "dynamic_evidence": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/evidence/probe.json",
+    "dynamic_signal": {
+      "negative_listener_received": [],
+      "negative_listener_received_count": 0,
+      "negative_namesrv_boot": true,
+      "positive_listener_received": [
+        {
+          "addr": "('127.0.0.1', 48088)",
+          "data_hex": "4a524d4900024b",
+          "data_repr": "b'JRMI\\x00\\x02K'"
+        }
+      ],
+      "positive_listener_received_count": 1,
+      "positive_namesrv_boot": true
+    },
+    "manifest": "samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/manifest.json",
+    "negative": {
+      "case": "negative",
+      "cmd": [
+        "bash",
+        "bin/mqnamesrv"
+      ],
+      "duration_seconds": 18.815,
+      "entrypoint": "bin/mqnamesrv",
+      "insertion": {
+        "before_insertion": {
+          "logback-classic-1.0.13.jar": {
+            "inspection_before": {
+              "exists": true,
+              "jndi_connection_source_class_present": false,
+              "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/negative-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar",
+              "version": "1.0.13"
+            },
+            "sha256_before": "12c1930ca91653422ac49fea33fce8be1b1fcd2d2220cea383c4794976c7418f",
+            "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/negative-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar"
+          },
+          "logback-core-1.0.13.jar": {
+            "inspection_before": {
+              "exists": true,
+              "jndi_connection_source_class_present": true,
+              "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/negative-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar",
+              "version": "1.0.13"
+            },
+            "sha256_before": "ecd8f24f9b2941284e98f154ff3343e720cb31c8f47b67554b145745f596f3b8",
+            "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/negative-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar"
+          }
+        },
+        "inserted_auxiliary_jars": {
+          "logback-classic-1.0.13.jar": {
+            "inspection_after": {
+              "exists": true,
+              "jndi_connection_source_class_present": false,
+              "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/negative-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar",
+              "version": "1.2.7"
+            },
+            "is_generated_v1_runtime_jar": false,
+            "reason": "RocketMQ 4.9.2 ships logback-classic 1.0.13, which is binary-incompatible with the inserted v1-selected logback-core 1.2.7. The matching classic jar is inserted only as a compatibility adapter so the real mqnamesrv entrypoint can load the vulnerable core path.",
+            "sha256_source": "fed605d7079d9e90b1fa39d913b0f2334d7442eaf754ebe865be6076064f396a",
+            "sha256_target_after": "fed605d7079d9e90b1fa39d913b0f2334d7442eaf754ebe865be6076064f396a",
+            "source_auxiliary_jar": "/data/lhq/workspace/ljl-v1-downstream-insertions/vendor-m2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar",
+            "target_filename_preserved_for_downstream_classpath": true,
+            "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/negative-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar"
+          }
+        },
+        "inserted_v1_jars": {
+          "logback-core-1.0.13.jar": {
+            "inspection_after": {
+              "exists": true,
+              "jndi_connection_source_class_present": true,
+              "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/negative-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar",
+              "version": "1.2.7"
+            },
+            "is_generated_v1_runtime_jar": true,
+            "sha256_source": "763ead25f9be559fe7799d6a0660c085a9091eba59e961a4734597deb10c2938",
+            "sha256_target_after": "763ead25f9be559fe7799d6a0660c085a9091eba59e961a4734597deb10c2938",
+            "source_v1_runtime_jar": "/data/lhq/workspace/ljl-v1-downstream-insertions/vendor-m2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar",
+            "target_filename_preserved_for_downstream_classpath": true,
+            "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/negative-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar"
+          }
+        },
+        "runtime_logback_jars_after_insertion": [
+          "lib/logback-classic-1.0.13.jar",
+          "lib/logback-core-1.0.13.jar"
+        ]
+      },
+      "java_home": "/data/lhq/.sdkman/candidates/java/8.0.452-amzn",
+      "java_opt_ext": "-Xms128m -Xmx256m",
+      "jndi_location": "java:comp/env/jdbc/control",
+      "listener_received": [],
+      "listener_received_count": 0,
+      "returncode": -15,
+      "stdout_contains_jndi_connection_source": true,
+      "stdout_contains_namesrv_boot": true,
+      "stdout_contains_namesrv_startup": true,
+      "stdout_tail": "Picked up JAVA_TOOL_OPTIONS: -Dcom.sun.jndi.rmi.object.trustURLCodebase=true\nOpenJDK 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release\nOpenJDK 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.\nOpenJDK 64-Bit Server VM warning: MaxNewSize (2097152k) is equal to or greater than the entire heap (262144k).  A new max generation size of 262080k will be used.\n19:38:27,196 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]\n19:38:27,196 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]\n19:38:27,196 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]\n19:38:27,198 |-INFO in ch.qos.logback.classic.BasicConfigurator@198e2867 - Setting up default configuration.\n19:38:27,259 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.db.DBAppender]\n19:38:27,261 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [DB]\n19:38:27,269 |-INFO in ch.qos.logback.core.db.JNDIConnectionSource@4c75cab9 - Looking up [java:comp/env/jdbc/control] in JNDI\n19:38:27,270 |-ERROR in ch.qos.logback.core.db.JNDIConnectionSource@4c75cab9 - Error while getting data source javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial\n\tat javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial\n\tat \tat javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:673)\n\tat \tat javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:313)\n\tat \tat javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:350)\n\tat \tat javax.naming.InitialContext.lookup(InitialContext.java:417)\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.lookupDataSource(JNDIConnectionSource.java:97)\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.getConnection(JNDIConnectionSource.java:57)\n\tat \tat ch.qos.logback.core.db.ConnectionSourceBase.discoverConnectionProperties(ConnectionSourceBase.java:46)\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.start(JNDIConnectionSource.java:50)\n\tat \tat ch.qos.logback.core.joran.action.NestedComplexPropertyIA.end(NestedComplexPropertyIA.java:161)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)\n\tat \tat ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:81)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:72)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.createNamesrvController(NamesrvStartup.java:119)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main0(NamesrvStartup.java:57)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main(NamesrvStartup.java:51)\n19:38:27,271 |-WARN in ch.qos.logback.core.db.JNDIConnectionSource@4c75cab9 - Could not discover the dialect to use. java.sql.SQLException: NamingException while looking up DataSource: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial\n\tat java.sql.SQLException: NamingException while looking up DataSource: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.getConnection(JNDIConnectionSource.java:65)\n\tat \tat ch.qos.logback.core.db.ConnectionSourceBase.discoverConnectionProperties(ConnectionSourceBase.java:46)\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.start(JNDIConnectionSource.java:50)\n\tat \tat ch.qos.logback.core.joran.action.NestedComplexPropertyIA.end(NestedComplexPropertyIA.java:161)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)\n\tat \tat ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:81)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:72)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.createNamesrvController(NamesrvStartup.java:119)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main0(NamesrvStartup.java:57)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main(NamesrvStartup.java:51)\n19:38:27,272 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:14 - RuntimeException in Action for tag [appender] java.lang.IllegalStateException: DBAppender cannot function if the JDBC driver does not support getGeneratedKeys method *and* without a specific SQL dialect\n\tat java.lang.IllegalStateException: DBAppender cannot function if the JDBC driver does not support getGeneratedKeys method *and* without a specific SQL dialect\n\tat \tat ch.qos.logback.core.db.DBAppenderBase.start(DBAppenderBase.java:60)\n\tat \tat ch.qos.logback.classic.db.DBAppender.start(DBAppender.java:92)\n\tat \tat ch.qos.logback.core.joran.action.AppenderAction.end(AppenderAction.java:90)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)\n\tat \tat ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:81)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:72)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.createNamesrvController(NamesrvStartup.java:119)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main0(NamesrvStartup.java:57)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main(NamesrvStartup.java:51)\n19:38:27,273 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO\n19:38:27,273 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [DB] to Logger[ROOT]\n19:38:27,273 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.\n19:38:27,274 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@224aed64 - Registering current configuration as safe fallback point\n19:38:27,275 |-WARN in ch.qos.logback.classic.db.DBAppender[DB] - Attempted to append to non started appender [DB].\n19:38:27,275 |-WARN in ch.qos.logback.classic.db.DBAppender[DB] - Attempted to append to non started appender [DB].\n19:38:27,275 |-WARN in ch.qos.logback.classic.db.DBAppender[DB] - Attempted to append to non started appender [DB].\nThe Name Server boot success. serializeType=JSON\n",
+      "timeout": true
+    },
+    "not_cve_poc_local": true,
+    "not_runner_only": true,
+    "notes": "The verifier does not execute the v1 App.java harness. It inserts the vulnerable logback-core 1.2.7 runtime dependency selected by logback/CVE-2021-42550/v1 into an isolated Apache RocketMQ 4.9.2 binary distribution, keeps RocketMQ's original classpath filenames, adds matching logback-classic 1.2.7 only as a compatibility adapter, then triggers JNDIConnectionSource through RocketMQ's real bin/mqnamesrv launcher and logback_namesrv.xml configuration path. The positive control receives a JRMI connection; the negative java:comp/env control receives none.",
+    "payload": "rmi://127.0.0.1:41959/x",
+    "positive": {
+      "case": "positive",
+      "cmd": [
+        "bash",
+        "bin/mqnamesrv"
+      ],
+      "duration_seconds": 18.915,
+      "entrypoint": "bin/mqnamesrv",
+      "insertion": {
+        "before_insertion": {
+          "logback-classic-1.0.13.jar": {
+            "inspection_before": {
+              "exists": true,
+              "jndi_connection_source_class_present": false,
+              "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar",
+              "version": "1.0.13"
+            },
+            "sha256_before": "12c1930ca91653422ac49fea33fce8be1b1fcd2d2220cea383c4794976c7418f",
+            "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar"
+          },
+          "logback-core-1.0.13.jar": {
+            "inspection_before": {
+              "exists": true,
+              "jndi_connection_source_class_present": true,
+              "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar",
+              "version": "1.0.13"
+            },
+            "sha256_before": "ecd8f24f9b2941284e98f154ff3343e720cb31c8f47b67554b145745f596f3b8",
+            "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar"
+          }
+        },
+        "inserted_auxiliary_jars": {
+          "logback-classic-1.0.13.jar": {
+            "inspection_after": {
+              "exists": true,
+              "jndi_connection_source_class_present": false,
+              "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar",
+              "version": "1.2.7"
+            },
+            "is_generated_v1_runtime_jar": false,
+            "reason": "RocketMQ 4.9.2 ships logback-classic 1.0.13, which is binary-incompatible with the inserted v1-selected logback-core 1.2.7. The matching classic jar is inserted only as a compatibility adapter so the real mqnamesrv entrypoint can load the vulnerable core path.",
+            "sha256_source": "fed605d7079d9e90b1fa39d913b0f2334d7442eaf754ebe865be6076064f396a",
+            "sha256_target_after": "fed605d7079d9e90b1fa39d913b0f2334d7442eaf754ebe865be6076064f396a",
+            "source_auxiliary_jar": "/data/lhq/workspace/ljl-v1-downstream-insertions/vendor-m2/ch/qos/logback/logback-classic/1.2.7/logback-classic-1.2.7.jar",
+            "target_filename_preserved_for_downstream_classpath": true,
+            "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-classic-1.0.13.jar"
+          }
+        },
+        "inserted_v1_jars": {
+          "logback-core-1.0.13.jar": {
+            "inspection_after": {
+              "exists": true,
+              "jndi_connection_source_class_present": true,
+              "path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar",
+              "version": "1.2.7"
+            },
+            "is_generated_v1_runtime_jar": true,
+            "sha256_source": "763ead25f9be559fe7799d6a0660c085a9091eba59e961a4734597deb10c2938",
+            "sha256_target_after": "763ead25f9be559fe7799d6a0660c085a9091eba59e961a4734597deb10c2938",
+            "source_v1_runtime_jar": "/data/lhq/workspace/ljl-v1-downstream-insertions/vendor-m2/ch/qos/logback/logback-core/1.2.7/logback-core-1.2.7.jar",
+            "target_filename_preserved_for_downstream_classpath": true,
+            "target_path": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/positive-runtime/rocketmq-4.9.2/lib/logback-core-1.0.13.jar"
+          }
+        },
+        "runtime_logback_jars_after_insertion": [
+          "lib/logback-classic-1.0.13.jar",
+          "lib/logback-core-1.0.13.jar"
+        ]
+      },
+      "java_home": "/data/lhq/.sdkman/candidates/java/8.0.452-amzn",
+      "java_opt_ext": "-Xms128m -Xmx256m",
+      "jndi_location": "rmi://127.0.0.1:41959/x",
+      "listener_received": [
+        {
+          "addr": "('127.0.0.1', 48088)",
+          "data_hex": "4a524d4900024b",
+          "data_repr": "b'JRMI\\x00\\x02K'"
+        }
+      ],
+      "listener_received_count": 1,
+      "returncode": -15,
+      "stdout_contains_jndi_connection_source": true,
+      "stdout_contains_namesrv_boot": true,
+      "stdout_contains_namesrv_startup": true,
+      "stdout_tail": "Picked up JAVA_TOOL_OPTIONS: -Dcom.sun.jndi.rmi.object.trustURLCodebase=true\nOpenJDK 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release\nOpenJDK 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.\nOpenJDK 64-Bit Server VM warning: MaxNewSize (2097152k) is equal to or greater than the entire heap (262144k).  A new max generation size of 262080k will be used.\n19:38:07,836 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]\n19:38:07,836 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]\n19:38:07,836 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]\n19:38:07,839 |-INFO in ch.qos.logback.classic.BasicConfigurator@198e2867 - Setting up default configuration.\n19:38:07,900 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.db.DBAppender]\n19:38:07,902 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [DB]\n19:38:07,910 |-INFO in ch.qos.logback.core.db.JNDIConnectionSource@4c75cab9 - Looking up [rmi://127.0.0.1:41959/x] in JNDI\n19:38:07,988 |-ERROR in ch.qos.logback.core.db.JNDIConnectionSource@4c75cab9 - Error while getting data source javax.naming.CommunicationException [Root exception is java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: \n\tjava.io.EOFException]\n\tat javax.naming.CommunicationException\n\tat \tat com.sun.jndi.rmi.registry.RegistryContext.lookup(RegistryContext.java:136)\n\tat \tat com.sun.jndi.toolkit.url.GenericURLContext.lookup(GenericURLContext.java:218)\n\tat \tat javax.naming.InitialContext.lookup(InitialContext.java:417)\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.lookupDataSource(JNDIConnectionSource.java:97)\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.getConnection(JNDIConnectionSource.java:57)\n\tat \tat ch.qos.logback.core.db.ConnectionSourceBase.discoverConnectionProperties(ConnectionSourceBase.java:46)\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.start(JNDIConnectionSource.java:50)\n\tat \tat ch.qos.logback.core.joran.action.NestedComplexPropertyIA.end(NestedComplexPropertyIA.java:161)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)\n\tat \tat ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:81)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:72)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.createNamesrvController(NamesrvStartup.java:119)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main0(NamesrvStartup.java:57)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main(NamesrvStartup.java:51)\nCaused by: java.rmi.ConnectIOException: error during JRMP connection establishment; nested exception is: \n\tjava.io.EOFException\n\tat \tat sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:307)\n\tat \tat sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)\n\tat \tat sun.rmi.server.UnicastRef.newCall(UnicastRef.java:343)\n\tat \tat sun.rmi.registry.RegistryImpl_Stub.lookup(RegistryImpl_Stub.java:116)\n\tat \tat com.sun.jndi.rmi.registry.RegistryContext.lookup(RegistryContext.java:132)\n\tat \t... 19 common frames omitted\nCaused by: java.io.EOFException\n\tat \tat java.io.DataInputStream.readByte(DataInputStream.java:267)\n\tat \tat sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:246)\n\tat \t... 23 common frames omitted\n19:38:07,990 |-WARN in ch.qos.logback.core.db.JNDIConnectionSource@4c75cab9 - Could not discover the dialect to use. java.sql.SQLException: NamingException while looking up DataSource: null\n\tat java.sql.SQLException: NamingException while looking up DataSource: null\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.getConnection(JNDIConnectionSource.java:65)\n\tat \tat ch.qos.logback.core.db.ConnectionSourceBase.discoverConnectionProperties(ConnectionSourceBase.java:46)\n\tat \tat ch.qos.logback.core.db.JNDIConnectionSource.start(JNDIConnectionSource.java:50)\n\tat \tat ch.qos.logback.core.joran.action.NestedComplexPropertyIA.end(NestedComplexPropertyIA.java:161)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)\n\tat \tat ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:81)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:72)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.createNamesrvController(NamesrvStartup.java:119)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main0(NamesrvStartup.java:57)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main(NamesrvStartup.java:51)\n19:38:07,991 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:14 - RuntimeException in Action for tag [appender] java.lang.IllegalStateException: DBAppender cannot function if the JDBC driver does not support getGeneratedKeys method *and* without a specific SQL dialect\n\tat java.lang.IllegalStateException: DBAppender cannot function if the JDBC driver does not support getGeneratedKeys method *and* without a specific SQL dialect\n\tat \tat ch.qos.logback.core.db.DBAppenderBase.start(DBAppenderBase.java:60)\n\tat \tat ch.qos.logback.classic.db.DBAppender.start(DBAppender.java:92)\n\tat \tat ch.qos.logback.core.joran.action.AppenderAction.end(AppenderAction.java:90)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:309)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:193)\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:179)\n\tat \tat ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:81)\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:72)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.createNamesrvController(NamesrvStartup.java:119)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main0(NamesrvStartup.java:57)\n\tat \tat org.apache.rocketmq.namesrv.NamesrvStartup.main(NamesrvStartup.java:51)\n19:38:07,992 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO\n19:38:07,992 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [DB] to Logger[ROOT]\n19:38:07,992 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.\n19:38:07,993 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@96532d6 - Registering current configuration as safe fallback point\n19:38:07,994 |-WARN in ch.qos.logback.classic.db.DBAppender[DB] - Attempted to append to non started appender [DB].\n19:38:07,994 |-WARN in ch.qos.logback.classic.db.DBAppender[DB] - Attempted to append to non started appender [DB].\n19:38:07,994 |-WARN in ch.qos.logback.classic.db.DBAppender[DB] - Attempted to append to non started appender [DB].\nThe Name Server boot success. serializeType=JSON\n",
+      "timeout": true
+    },
+    "run_rc": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint/evidence/run.rc",
+    "sample_id": "CVE-2021-42550__apache_rocketmq_4_9_2_v1_logback_real_entrypoint",
+    "source_case": "logback/CVE-2021-42550",
+    "source_v1_path": "/data/lhq/workspace/ljl-patch-java30-projects/input/logback/CVE-2021-42550/v1",
+    "status": "TP_CONFIRMED_REAL_DOWNSTREAM_ENTRYPOINT",
+    "strict_status": "TP_CONFIRMED",
+    "upstream_library": "logback",
+    "verifier": "/data/lhq/workspace/ljl-v1-downstream-insertions/scripts/verify_rocketmq_logback_v1_inserted.py",
     "vulnerable_version": "1.2.7"
   },
   {
@@ -538,6 +813,7 @@
       ],
       "positive_listener_received_count": 1
     },
+    "manifest": "samples/CVE-2021-42550__apache_shardingsphere_5_0_0_v1_logback_real_entrypoint/manifest.json",
     "negative": {
       "case": "negative",
       "cmd": [
@@ -971,6 +1247,7 @@
       "positive_ready": true
     },
     "insertion_model": "isolated runtime dependency insertion: official Apache Archiva 2.2.6 binary with generated v1 Log4j 2.14.1 api/core jars copied from .m2-poc into apps/archiva/WEB-INF/lib, plus auxiliary Log4j bridge jars copied from the legacy cache",
+    "manifest": "samples/CVE-2021-44228__apache_archiva_2_2_6_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "control_logged": true,
       "listener_received_count": 0,
@@ -1132,6 +1409,7 @@
       "positive_returncode": 1,
       "positive_startup_logging": false
     },
+    "manifest": "samples/CVE-2021-44228__apache_druid_0_17_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "listener_received_count": 0,
       "probe_key_logged": false,
@@ -1265,6 +1543,7 @@
       "positive_returncode": 0
     },
     "jndi_lookup_class_present": true,
+    "manifest": "samples/CVE-2021-44228__apache_flink_1_14_0_v1_log4j_real_entrypoint/manifest.json",
     "not_cve_poc_local": true,
     "not_runner_only": true,
     "notes": "The verifier does not execute .cve_poc_local. It inserts the generated v1 Log4j api/core 2.14.1 runtime jars into an isolated Flink distribution. The payload enters through Flink's real CLI `info` action and the official streaming WordCount example's `--output` program argument. The command exits successfully after generating a Flink execution plan, while the local listener receives the Log4j LDAP lookup.",
@@ -2453,6 +2732,7 @@
     "downstream_repo": "apache/flume",
     "dynamic_evidence": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-44228__apache_flume_1_9_0_v1_log4j_real_entrypoint/evidence/probe.json",
     "insertion_model": "isolated runtime dependency insertion: official Apache Flume 1.9.0 binary with log4j-1.2/slf4j-log4j12 binding jars removed, generated v1 Log4j 2.14.1 api/core jars copied from .m2-poc, and log4j-slf4j-impl copied as the SLF4J bridge into lib for the verifier run directory",
+    "manifest": "samples/CVE-2021-44228__apache_flume_1_9_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "control_logged": true,
       "create_source_log": true,
@@ -2654,6 +2934,7 @@
       "positive_probe_key_logged": true,
       "positive_returncode": 0
     },
+    "manifest": "samples/CVE-2021-44228__apache_geode_1_14_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "listener_received_count": 0,
       "locator_online": true,
@@ -2794,6 +3075,7 @@
       ],
       "positive_listener_received_count": 1
     },
+    "manifest": "samples/CVE-2021-44228__apache_ignite_2_11_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "case": "negative",
       "ignite_result": {
@@ -3037,6 +3319,7 @@
       "positive_rcpt_parse_log": true,
       "positive_smtp_ready": true
     },
+    "manifest": "samples/CVE-2021-44228__apache_james_3_6_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "control_logged": true,
       "listener_received_count": 0,
@@ -3203,6 +3486,7 @@
       "positive_stdout_contains_jmeter_initialize_properties": true,
       "positive_stdout_contains_jndi_lookup": true
     },
+    "manifest": "samples/CVE-2021-44228__apache_jmeter_5_4_1_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "listener_received_count": 0
     },
@@ -4254,6 +4538,7 @@
     "downstream_repo": "apache/kafka",
     "dynamic_evidence": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-44228__apache_kafka_3_0_0_v1_log4j_real_entrypoint/evidence/probe.json",
     "insertion_model": "isolated runtime dependency insertion: official Apache Kafka 3.0.0 binary with the original SLF4J Log4j 1.x backend jars removed, generated v1 Log4j 2.14.1 api/core jars copied from .m2-poc into libs, and log4j-slf4j-impl copied only as the SLF4J bridge so Kafka's own logging reaches the inserted v1 Log4j2 core",
+    "manifest": "samples/CVE-2021-44228__apache_kafka_3_0_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "adminclient_client_id_logged": true,
       "control_logged": true,
@@ -4822,6 +5107,7 @@
     "downstream_repo": "apache/maven",
     "dynamic_evidence": "/data/lhq/workspace/ljl-v1-downstream-insertions/samples/CVE-2021-44228__apache_maven_3_8_3_v1_log4j_real_entrypoint/evidence/probe.json",
     "insertion_model": "isolated runtime dependency insertion: official Apache Maven 3.8.3 binary with maven-slf4j-provider removed, generated v1 Log4j 2.14.1 api/core jars copied from .m2-poc, and log4j-slf4j-impl copied as the SLF4J bridge into lib for the verifier run directory",
+    "manifest": "samples/CVE-2021-44228__apache_maven_3_8_3_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "control_logged": true,
       "listener_received_count": 0,
@@ -5019,6 +5305,7 @@
       "positive_listener_received_count": 1,
       "positive_topic_logged": false
     },
+    "manifest": "samples/CVE-2021-44228__apache_pulsar_2_8_1_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "cmd_consume_log": true,
       "control_logged": true,
@@ -5237,6 +5524,7 @@
       "positive_oap_ready": true,
       "positive_payload_logged": true
     },
+    "manifest": "samples/CVE-2021-44228__apache_skywalking_8_8_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "control_logged": true,
       "graphql_parse_log": true,
@@ -5331,6 +5619,7 @@
       "positive_listener_received_count": 1,
       "positive_marker": "1"
     },
+    "manifest": "samples/CVE-2021-44228__apache_solr_8_11_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "case": "negative",
       "listener_port": 39863,
@@ -5566,6 +5855,7 @@
       "positive_payload_logged": true,
       "positive_ui_ready": true
     },
+    "manifest": "samples/CVE-2021-44228__apache_storm_2_3_0_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "access_log": true,
       "control_logged": true,
@@ -5691,6 +5981,7 @@
       "positive_payload_logged": true,
       "positive_ready": true
     },
+    "manifest": "samples/CVE-2021-44228__apache_struts2_showcase_2_5_27_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "ajp_port": 50793,
       "case": "negative",
@@ -6075,6 +6366,7 @@
       "positive_listener_received_count": 1,
       "positive_parameter_log": true
     },
+    "manifest": "samples/CVE-2021-44228__apache_syncope_client_cli_2_1_8_v1_log4j_real_entrypoint/manifest.json",
     "negative": {
       "control_logged": true,
       "install_command_log": true,
